@@ -18,21 +18,13 @@ public class ThirdLecture {
 
         String y = Character.toString( 128_512);
         System.out.println(y);
-
         System.out.println(booleanVariable);
         System.out.println(byteVariable);
-
         System.out.println(shortVariable);
         System.out.println(longVariable);
-
         System.out.println(floatVariable);
         System.out.println(doubleVariable);
-
-
-
         //RAM - check wiki
-
-
     }
 
 
