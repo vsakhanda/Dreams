@@ -1,5 +1,11 @@
 package Thrird;
 
+/**
+ *  Examples of unicode and it use
+ *
+ *
+ */
+
 public class unicode {
 
     // Java Program to Store Unicode Characters

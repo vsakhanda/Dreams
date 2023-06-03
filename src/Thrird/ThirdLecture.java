@@ -1,5 +1,11 @@
 package Thrird;
 
+/**
+ *  Materials of third lecture. some examples and additional information
+ *
+ *
+ */
+
 public class ThirdLecture {
 
     public static void main(String[] args)
@@ -25,6 +31,13 @@ public class ThirdLecture {
         System.out.println(floatVariable);
         System.out.println(doubleVariable);
         //RAM - check wiki
+
+    // boxing and unboxing
+
+
+
+
+
     }
 
 
