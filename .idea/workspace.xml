@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Scanner creation on Windows">
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Forth homeWork">
+      <change afterPath="$PROJECT_DIR$/src/Fourth/FourthHomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fourth/FourthLecture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Thrird/ThirdHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thrird/ThirdHomeWork.java" afterDir="false" />
     </list>
@@ -12,6 +14,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +41,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -84,7 +90,20 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThirdHomeWork">
+  <component name="RunManager">
+    <configuration name="FourthHomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fourth.FourthHomeWork" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fourth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thrird.Scanner" />
       <module name="Dreams" />
@@ -126,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FourthHomeWork" />
         <item itemvalue="Application.ThirdHomeWork" />
         <item itemvalue="Application.Scanner" />
         <item itemvalue="Application.ThirdLecture" />
@@ -183,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685864017329</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Third homework">
+      <created>1685894715659</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685894715659</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Third homework">
+      <created>1685894948249</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685894948249</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Third homework">
+      <created>1685894963488</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685894963488</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,12 +235,12 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="thirdlecture" />
+                  <option value="master" />
                 </option>
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="master" />
+                  <option value="thirdlecture" />
                 </option>
               </RecentGroup>
             </list>
@@ -223,17 +264,8 @@
     <MESSAGE value="new comment for commit" />
     <MESSAGE value="030623 20 home work" />
     <MESSAGE value="Scanner creation on Windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scanner creation on Windows" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Thrird/ThirdLecture.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Third homework" />
+    <MESSAGE value="Forth homeWork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Forth homeWork" />
   </component>
 </project>

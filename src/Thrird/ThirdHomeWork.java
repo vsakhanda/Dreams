@@ -10,15 +10,12 @@ package Thrird;
   *         Множення
  */
 
-
-
-
 public class ThirdHomeWork {
 
     public static void main (String[] args)
     {
-        int a = 5555;
-        int b = 7;
+        int a = 200;
+        int b = 10;
         System.out.println (a+b); // Додавання
         System.out.println (a-b); // Віднімання
         System.out.println (a*b); // Множення
