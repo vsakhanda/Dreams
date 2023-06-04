@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Scanner creation on Windows">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thrird/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thrird/newScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thrird/ThirdHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thrird/ThirdHomeWork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,7 @@
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -79,10 +80,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ThirdHomeWork">
     <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thrird.Scanner" />
       <module name="Dreams" />
@@ -124,9 +126,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThirdHomeWork" />
         <item itemvalue="Application.Scanner" />
         <item itemvalue="Application.ThirdLecture" />
-        <item itemvalue="Application.ThirdHomeWork" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685811549684</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Scanner creation on Windows">
+      <created>1685861154243</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685861154243</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Scanner creation on Windows">
+      <created>1685864017329</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685864017329</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

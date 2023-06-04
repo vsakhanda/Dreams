@@ -2,8 +2,16 @@ package Thrird;
 
 /**
  *  Homework for third lecture
- *
+ * Створити програму
+  *         Об`явити 2 змінні типу Integer та показати в консолі результати:
+  *         Додавання
+  *         Віднімання
+  *         Ділення
+  *         Множення
  */
+
+
+
 
 public class ThirdHomeWork {
 
@@ -11,7 +19,11 @@ public class ThirdHomeWork {
     {
         int a = 5555;
         int b = 7;
-        System.out.println (a-b);
+        System.out.println (a+b); // Додавання
+        System.out.println (a-b); // Віднімання
+        System.out.println (a*b); // Множення
+        System.out.println (a/b); // Ділення
+
     }
 
 }
