@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Forth homeWork">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Доповнення домашнього завдання">
       <change beforePath="$PROJECT_DIR$/src/Fourth/FourthHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourth/FourthHomeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fourth/FourthLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourth/FourthLecture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685904269143</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Доповнення домашнього завдання">
+      <created>1685905193453</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685905193453</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +298,7 @@
     <MESSAGE value="Scanner creation on Windows" />
     <MESSAGE value="Third homework" />
     <MESSAGE value="Forth homeWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forth homeWork" />
+    <MESSAGE value="Доповнення домашнього завдання" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доповнення домашнього завдання" />
   </component>
 </project>
