@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Forth homeWork">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Доповнення домашнього завдання">
       <change beforePath="$PROJECT_DIR$/src/Fourth/FourthHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourth/FourthHomeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fourth/FourthLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourth/FourthLecture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,15 +78,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="FourthHomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fourth.FourthHomeWork" />
@@ -251,7 +249,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685904269143</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Доповнення домашнього завдання">
+      <created>1685905193453</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685905193453</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Доповнення домашнього завдання">
+      <created>1685905276990</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685905276990</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Доповнення домашнього завдання">
+      <created>1685905418582</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685905418582</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +312,7 @@
     <MESSAGE value="Scanner creation on Windows" />
     <MESSAGE value="Third homework" />
     <MESSAGE value="Forth homeWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="Forth homeWork" />
+    <MESSAGE value="Доповнення домашнього завдання" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доповнення домашнього завдання" />
   </component>
 </project>

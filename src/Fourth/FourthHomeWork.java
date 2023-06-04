@@ -12,12 +12,12 @@ import java.util.Scanner;
 public class FourthHomeWork {
     public static void main(String[] args) {
 
-        String test = "Raw For Fome work";
-        System.out.println(test.length());
-        System.out.println(test.toUpperCase());
-        System.out.println(test.toLowerCase());
-        System.out.println(test.charAt(0));
-        System.out.println(test.charAt(test.length()-1));
+        String test = "Raw For НomeWork";
+        System.out.println("Довжина рядка = " + test.length());
+        System.out.println("Рядок прописом = " + test.toUpperCase());
+        System.out.println("Рядок в нижньому регістрі  = " + test.toLowerCase());
+        System.out.println("Перша літера рядка = " + test.charAt(0));
+        System.out.println("Остання літера рядка" + test.charAt(test.length()-1));
 
         /*
         Додатково виткористав метод Scanner для обробки рядка, який вводить користувач
@@ -31,7 +31,7 @@ public class FourthHomeWork {
         System.out.println("Рядок прописом = "+ someScanner.toUpperCase());
         System.out.println("Рядок в нижньому регістрі  = "+ someScanner.toLowerCase());
         System.out.println("Перша літера рядка = "+ someScanner.charAt(0));
-        System.out.println("Остання літера рядка" + someScanner.charAt(test.length()-1));
+        System.out.println("Остання літера рядка = " + someScanner.charAt(someScanner.length()-1));
 
 
 
