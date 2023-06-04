@@ -9,7 +9,7 @@ package Fourth;
 public class FourthHomeWork {
     public static void main(String[] args) {
 
-        String test = "raw for home work";
+        String test = "Raw For Fome work";
         System.out.println(test.length());
         System.out.println(test.toUpperCase());
         System.out.println(test.toLowerCase());
