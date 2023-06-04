@@ -1,13 +1,9 @@
 package Thrird;
 
-/**
- *  Example of use scanner in java. It made input of objects in console ad use them in program work.
- *
- */
 import java.util.Scanner;
 
 
-public class Scanner {
+public class newScanner {
 
     public static void main(String[] args)
     {
@@ -15,7 +11,7 @@ public class Scanner {
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter user name");
 
-        String userName = myObj.nextline();
+        String userName = myObj.nextLine();
         System.out.println ("Username is "+ userName);
 
     }

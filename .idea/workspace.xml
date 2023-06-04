@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="new comment for commit">
-      <change afterPath="$PROJECT_DIR$/src/Thrird/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thrird/ThirdHomeWork.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Scanner creation on Windows">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thrird/ThirdLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thrird/ThirdLecture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thrird/unicode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thrird/unicode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thrird/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thrird/newScanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +82,7 @@
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Scanner">
+  <component name="RunManager">
     <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Thrird.Scanner" />
       <module name="Dreams" />
@@ -163,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685808691049</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="030623 20 home work">
+      <created>1685811549684</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685811549684</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,7 +205,9 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="Я починаю курс Java в robot_dreams і вже вмію використовувати Git" />
     <MESSAGE value="new comment for commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="new comment for commit" />
+    <MESSAGE value="030623 20 home work" />
+    <MESSAGE value="Scanner creation on Windows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scanner creation on Windows" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
