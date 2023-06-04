@@ -1,7 +1,7 @@
 package Thrird;
 
 import java.util.Scanner;
-
+//new
 
 public class newScanner {
 
