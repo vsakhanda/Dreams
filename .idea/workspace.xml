@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Forth homeWork">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Fourth/FourthHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourth/FourthHomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fourth/FourthLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourth/FourthLecture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +230,28 @@
       <option name="project" value="LOCAL" />
       <updated>1685903974675</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Forth homeWork">
+      <created>1685904178594</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685904178594</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Forth homeWork">
+      <created>1685904254615</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685904254615</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Forth homeWork">
+      <created>1685904269143</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685904269143</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
