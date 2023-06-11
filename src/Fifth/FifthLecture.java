@@ -4,17 +4,17 @@ public class FifthLecture {
 
     public static void main(String[] agrs) {
 
-      //  ifMethod(5); // Відображає середній рядок в методі
-      //  ifMethod(-5); // Не буде відображатись середній рядок в методі
-      //  ifElseMethod( 3); // проходить через першу частину коду
-      //  ifElseMethod(-2); // проходить через частину коду else
-//        ifElseTimes(2);
-//        ifElseTimes(0);
-//        ifElseTimes(-3);
-//
-//        switchMetod(0);
-//        switchMetod(3);
-//        switchMetod(100);
+        ifMethod(5); // Відображає середній рядок в методі
+       ifMethod(-5); // Не буде відображатись середній рядок в методі
+        ifElseMethod( 3); // проходить через першу частину коду
+        ifElseMethod(-2); // проходить через частину коду else
+        ifElseTimes(2);
+        ifElseTimes(0);
+        ifElseTimes(-3);
+
+        switchMetod(0);
+        switchMetod(3);
+        switchMetod(100);
 
         trenaryOperator( 1);
         trenaryOperator(10);
@@ -48,6 +48,8 @@ public class FifthLecture {
 
 
     }
+
+
 
     private static void ifElseTimes(int i) {
         System.out.println("ifElseTimes method starts");
