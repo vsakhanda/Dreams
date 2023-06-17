@@ -8,7 +8,10 @@ public class AdditionalSixLecture {
         median();
         medianWithBody();
         tik();
+        table();
+        power();
     }
+
 
     public static void median() {
         int i = 101;
@@ -44,4 +47,35 @@ public class AdditionalSixLecture {
         }
 
     }
+
+
+
+    private static void table() {
+        // Табличка множення
+        System.out.println("Табличка множення");
+        int t = 3;
+        for (int i =1; i<=10; i++) {
+         System.out.println(t + " * "+ i + " = " + t*i );
+        }
+        System.out.println("Завершення розрахунку");
+    }
+
+// Приведення до степеня
+
+    private static void power() {
+        // Табличка множення
+        System.out.println("Приведення до степеня");
+        int num = 3;
+        int p = 10;
+        int result =1;
+        for (int i =1; i<=p; i++) {
+            result *= num;
+            //System.out.println("Число "+ num + " в степені "+  i + " дорівнює = " + (Math.pow(num, i)) );
+
+        }
+        System.out.println("Завершення розрахунку" + num + " в степені "+  p + " дорівнює = " + result);
+    }
+
+
+
 }

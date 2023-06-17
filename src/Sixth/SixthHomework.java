@@ -26,31 +26,54 @@ public class SixthHomework {
                 j += 2;
             } while (j <= 100);
         }
-
-        //Знайти факторіал числа 7
+// Парні числа другий метод через цикл for з лекції
         {
-            System.out.println("Факторіл");
-            int f, fact = 1;
-            int number = 7;
-            for (f = 1; f <= number; f++) {
-                fact = fact * f;
-                System.out.println("Число " + f + " = Факторіал " + fact);
+            System.out.println("Парні числа другий метод:");
+            for (int p = 2; p <= 100; p = p + 2) {
+                System.out.println(p);
             }
-            System.out.println("Фасторіал числа " + number + " = " + fact);
         }
+            //Знайти факторіал числа 7
+            {
+                System.out.println("Факторіл");
+                int f, fact = 1;
+                int number = 7;
+                for (f = 1; f <= number; f++) {
+                    fact = fact * f;
+                    System.out.println("Число " + f + " = Факторіал " + fact);
+                }
+                System.out.println("Фасторіал числа " + number + " = " + fact);
+            }
 //Вивести числа фібоначчі до 100 (значення самого числа не повинно перевищувати 100)
-        {
-            System.out.println("Число фібоначі");
-            int a = 0;
-            int b = 0;
-            int fib = 1;
-            do {
-                a = b;
-                b = fib;
-                System.out.println(a + " , " + b + " fib " + fib);
-                fib = a+b;
-            }
+
+        // Реалізація через цикл do while
+            {
+                System.out.println("Число фібоначі");
+                int a;
+                int b = 1;
+                int fib = 0;
+                do {
+                    a = b;
+                    b = fib;
+                    System.out.println(a + " , " + b + " fib " + fib);
+                    fib = a + b;
+                }
                 while (fib < 100);
-        }
+            }
+
+// Числа фібоначі через цикл while
+            {
+                System.out.println("Число фібоначі через цикл while");
+                int a = 0;
+                int b = 1;
+                int fib = 0;
+                while (fib < 100) {
+                    a = b;
+                    b = fib;
+                    System.out.println(a + " , " + b + " fib " + fib);
+                    fib = a + b;
+                }
+                System.out.println("Розрахунок закінчено");
+            }
         }
     }
