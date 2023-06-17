@@ -28,12 +28,12 @@ public class SixLecture {
             do {
             System.out.println(j);
                 j++;
-            } while (j <= 10);
+            } while (j <= 11);
         }
         }
     }
 
     public static void forCycle() {
-        System.out.println("Show me the meaning");
+        System.out.println("Show me");
     }
 }

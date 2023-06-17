@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Fifth HomeWork">
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Fifth/FifthHomeWork.java">
+      <change afterPath="$PROJECT_DIR$/src/Sixth/SixthHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thrird/Mathan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fifth/FifthHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fifth/FifthHomeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sixth/SixLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sixth/SixLecture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thrird/newScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thrird/newScanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FifthLecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fifth.FifthLecture" />
+    <configuration name="Mathan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Thrird.Mathan" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fifth.*" />
+          <option name="PATTERN" value="Thrird.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SixLecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sixth.SixLecture" />
+    <configuration name="SixthHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sixth.SixthHomework" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mathan" />
+        <item itemvalue="Application.SixthHomework" />
+        <item itemvalue="Application.newScanner" />
         <item itemvalue="Application.AdditionalSixLecture" />
         <item itemvalue="Application.FifthHomeWork" />
-        <item itemvalue="Application.newScanner" />
-        <item itemvalue="Application.SixLecture" />
-        <item itemvalue="Application.FifthLecture" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +288,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686506930006</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fifth HomeWork">
+      <created>1686508058268</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1686508058268</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Fifth/FifthHomeWork.java">
+      <created>1686508101476</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1686508101476</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,6 +347,7 @@
     <MESSAGE value="Fifth lecture and HomeWork commit" />
     <MESSAGE value="Sixth Lecture" />
     <MESSAGE value="Fifth HomeWork" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fifth HomeWork" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Fifth/FifthHomeWork.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Fifth/FifthHomeWork.java" />
   </component>
 </project>
