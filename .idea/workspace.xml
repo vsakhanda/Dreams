@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Sixth homework for cycles">
-      <change beforePath="$PROJECT_DIR$/src/Sixth/AdditionalSixLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sixth/AdditionalSixLecture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sixth/SixthHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sixth/SixthHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seventh/SeventhHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seventh/SeventhLecture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,17 +79,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "seven",
-    "ignore.virus.scanning.warn.message": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;seven&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="AdditionalSixLecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sixth.AdditionalSixLecture" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Mathan" />
         <item itemvalue="Application.SixthHomework" />
         <item itemvalue="Application.newScanner" />
-        <item itemvalue="Application.AdditionalSixLecture" />
+        <item itemvalue="Application.Mathan" />
         <item itemvalue="Application.FifthHomeWork" />
+        <item itemvalue="Application.AdditionalSixLecture" />
       </list>
     </recent_temporary>
   </component>
