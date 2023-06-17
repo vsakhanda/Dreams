@@ -37,7 +37,7 @@ private static void star() {
         System.out.println("Введіть кількість зірочок для відображення");
         int q = Integer.parseInt(starScanner.next());
         System.out.println ("Ваше число " + q);
-        int i= 1;
+        int i = 1;
         for(i =1; i<=q; i++) {
             System.out.println("*");
         }
@@ -55,11 +55,11 @@ private static void symbols() {
         System.out.println("Введіть символ для відображення");
         String s = symbol.nextLine();
         System.out.println ("Ваш символ " + s);
-        int i= 1;
+        int i = 1;
              for(i =1; i<=q; i++) {
                  System.out.println(s);
     }
-        System.out.print("" +
+        System.out.print("_" +
                 "Відображення завершено");
     }
 }
