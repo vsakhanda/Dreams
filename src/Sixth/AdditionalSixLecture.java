@@ -67,13 +67,10 @@ public class AdditionalSixLecture {
         System.out.println("Приведення до степеня");
         int num = 3;
         int p = 10;
-        int result =1;
         for (int i =1; i<=p; i++) {
-            result *= num;
-            //System.out.println("Число "+ num + " в степені "+  i + " дорівнює = " + (Math.pow(num, i)) );
-
+            System.out.println("Число "+ num + " в степені "+  i + " дорівнює = " + (Math.pow(num, i)) );
         }
-        System.out.println("Завершення розрахунку" + num + " в степені "+  p + " дорівнює = " + result);
+        System.out.println("Завершення розрахунку");
     }
 
 

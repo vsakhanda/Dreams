@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Sixth homework for cycles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sixth/AdditionalSixLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sixth/AdditionalSixLecture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Sixth/SixthHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sixth/SixthHomework.java" afterDir="false" />
     </list>
@@ -308,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686999946399</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Sixth homework for cycles">
+      <created>1687021944699</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1687021944699</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

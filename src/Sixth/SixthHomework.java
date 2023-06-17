@@ -64,7 +64,7 @@ public class SixthHomework {
 // Числа фібоначі через цикл while
             {
                 System.out.println("Число фібоначі через цикл while");
-                int a = 0;
+                int a;
                 int b = 1;
                 int fib = 0;
                 while (fib < 100) {
