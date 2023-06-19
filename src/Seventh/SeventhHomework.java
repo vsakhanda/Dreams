@@ -16,7 +16,11 @@ public class SeventhHomework {
 
  //       cube();
  //       star();
-        symbols();
+ //       symbols();
+ //       Scanner();
+        StringBuilder name = new StringBuilder("*");
+        starRecursion(name);
+        System.out.println(name);
     }
 
     private static void cube() {
@@ -30,6 +34,7 @@ public class SeventhHomework {
         System.out.println("Число "+ q + " в степені "+  p + " дорівнює = " + (Math.pow(q, p)) );
         System.out.println("Завершення розрахунку");
     }
+    // Вирішення за допомогою циклів
 private static void star() {
 
         System.out.println("Метод відобрежання зірочок");
@@ -41,9 +46,20 @@ private static void star() {
         for(i =1; i<=q; i++) {
             System.out.println("*");
         }
-        System.out.println("  " +
+        System.out.println("_" +
                 "Всі зірочки виведені");
     }
+    // Вирішення за допомогою рекурсії
+
+    private static StringBuilder starRecursion(StringBuilder name) {
+        if (name.length() < 7) {
+            starRecursion(name.append("*"));
+        }
+        return name;
+    }
+
+/*
+
 private static void symbols() {
 
         System.out.println("Метод виводить переданий символ стільки разів скільки передав користувач");
@@ -61,11 +77,8 @@ private static void symbols() {
     }
         System.out.print("_" +
                 "Відображення завершено");
-    }
+    }*/
 }
-
-
-
 
 
 

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Sixth homework for cycles">
-      <change afterPath="$PROJECT_DIR$/src/Seventh/SeventhHomework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seventh/SeventhLecture.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Seven homework for cycles">
+      <change afterPath="$PROJECT_DIR$/src/Fifth/Additional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seventh/AddRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seventh/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Seventh/SeventhHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seventh/SeventhHomework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Additional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fifth.Additional" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fifth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdditionalSixLecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sixth.AdditionalSixLecture" />
       <module name="Dreams" />
@@ -104,25 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FifthHomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fifth.FifthHomeWork" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seventh.Calculator" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fifth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mathan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Thrird.Mathan" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Thrird.*" />
+          <option name="PATTERN" value="Seventh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Additional" />
+        <item itemvalue="Application.AdditionalSixLecture" />
         <item itemvalue="Application.SixthHomework" />
         <item itemvalue="Application.newScanner" />
-        <item itemvalue="Application.Mathan" />
-        <item itemvalue="Application.FifthHomeWork" />
-        <item itemvalue="Application.AdditionalSixLecture" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +317,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687021944699</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Seven homework for cycles">
+      <created>1687030052141</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1687030052141</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Seven homework for cycles">
+      <created>1687030071756</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687030071756</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Seven homework for cycles">
+      <created>1687030108219</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687030108219</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -362,6 +385,7 @@
     <MESSAGE value="Fifth HomeWork" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Fifth/FifthHomeWork.java" />
     <MESSAGE value="Sixth homework for cycles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sixth homework for cycles" />
+    <MESSAGE value="Seven homework for cycles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seven homework for cycles" />
   </component>
 </project>
