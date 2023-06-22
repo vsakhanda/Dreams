@@ -1,9 +1,9 @@
 package Seventh;
 
 /*
-Створити метод який повертає куб заданого числа
-Метод повинен вивести зірочку стільки разів, скільки передав користувач у метод
-Метод повинен вивести переданий символ стільки разів, скільки передав користувач у метод
+1. Створити метод який повертає куб заданого числа
+2. Метод повинен вивести зірочку стільки разів, скільки передав користувач у метод
+3. Метод повинен вивести переданий символ стільки разів, скільки передав користувач у метод
 */
 
 
@@ -14,13 +14,15 @@ public class SeventhHomework {
 
     public static void main(String[] args) {
 
- //       cube();
- //       star();
- //       symbols();
- //       Scanner();
-        StringBuilder name = new StringBuilder("*");
-        starRecursion(name);
-        System.out.println(name);
+        cube();
+        star();
+        symbols();
+
+        System.out.println("Відображення зірочок а допомогою рекурсії Початок");
+        StringBuilder name21 = new StringBuilder("*");
+        starRecursion(name21);
+        System.out.println(name21);
+        System.out.println("Відображення зірочок а допомогою рекурсії Завершення");
     }
 
     private static void cube() {
@@ -47,26 +49,26 @@ private static void star() {
             System.out.println("*");
         }
         System.out.println("_" +
-                "Всі зірочки виведені");
-    }
-    // Вирішення за допомогою рекурсії
-
-    private static StringBuilder starRecursion(StringBuilder name) {
-        if (name.length() < 7) {
-            starRecursion(name.append("*"));
-        }
-        return name;
+                "Всі зірочки виведені ");
     }
 
-/*
+//Вирішення за допомогою рекурсії
+
+    private static StringBuilder starRecursion(StringBuilder name21) {
+        if (name21.length() < 100) {
+            starRecursion(name21.append("*"));
+        };
+        return name21;
+    }
+
 
 private static void symbols() {
 
-        System.out.println("Метод виводить переданий символ стільки разів скільки передав користувач");
+        System.out.println(" Метод виводить переданий символ стільки разів скільки передав користувач");
         Scanner quantity = new Scanner(System.in);
         System.out.println("Введіть кількість кількість символів для відображення");
         int q = Integer.parseInt(quantity.next());
-        System.out.println ("Ваше число " + q);
+        System.out.println ("Кількість знаків " + q);
         Scanner symbol = new Scanner(System.in);
         System.out.println("Введіть символ для відображення");
         String s = symbol.nextLine();
@@ -77,7 +79,7 @@ private static void symbols() {
     }
         System.out.print("_" +
                 "Відображення завершено");
-    }*/
+    }
 }
 
 

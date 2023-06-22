@@ -13,9 +13,26 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
+
+        Scanner epxScanner = new Scanner(System.in);
+        System.out.println("Введіть враз для розрахунку (без пробілів) приклад: 2*3. Допустимі функції (+, -, *, /)");
+        String exps = epxScanner.nextLine();
+        System.out.println("Вираз для розрахунку " + exps);
 
 
+
+
+
+    }
+
+
+
+
+
+
+}
+/*
         Scanner calcScanner = new Scanner(System.in);
         System.out.println("Введіть перше число для розрахунку");
         int a = calcScanner.nextInt();
@@ -24,11 +41,13 @@ public class Calculator {
         System.out.println("Введіть функцію для розрахунку (+, -, *, /)");
         char function = calcScanner.next().charAt(0);
         System.out.println ("Ваші числа " + a + " та "+ b+ " необхідна дія " + function );
+
+
         double result;
         result = operation(function, a, b);
         System.out.println ("Вираз для розрахунку " + a + " "+ function + " " + b + " = " + result);
-
     }
+
 
     private static double operation(char function, double a, double b) {
         return switch (function) {
@@ -56,3 +75,9 @@ public class Calculator {
     }
 
 }
+
+
+
+
+ */
+
