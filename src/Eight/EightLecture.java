@@ -6,7 +6,7 @@ public class EightLecture {
         String[] mainArray = new String[5];
         System.out.println(mainArray.length);
 
-    };
+    }
 
 
 

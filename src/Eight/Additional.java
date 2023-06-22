@@ -9,7 +9,7 @@ public class Additional {
         twoDim();
         chessBoard();
 
-    };
+    }
     //Способи ініціалізації масивів
 //    №	Объявление массива, Java-синтаксис	Примеры	Комментарий
 //1.  dataType[] arrayName;
@@ -49,7 +49,7 @@ public class Additional {
         for (int i = 0; i < 4; i++) {
             System.out.println(seasons2[i]);
         }
-    };
+    }
 
 // Двомірний масив
 
@@ -91,7 +91,7 @@ public class Additional {
             System.out.println();//перенесення рядку для візуального збереження структури
         }
         System.out.println("Завершення виведення другого варіанту ініціалізації двомірного масиву");
-    };
+    }
 
     public static void chessBoard() {
         System.out.println("Шахматна дошка");

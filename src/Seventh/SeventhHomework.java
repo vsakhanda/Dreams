@@ -57,7 +57,7 @@ private static void star() {
     private static StringBuilder starRecursion(StringBuilder name21) {
         if (name21.length() < 100) {
             starRecursion(name21.append("*"));
-        };
+        }
         return name21;
     }
 
