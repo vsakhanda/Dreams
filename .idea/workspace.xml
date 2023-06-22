@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Calculator added">
-      <change afterPath="$PROJECT_DIR$/src/Fourth/RegExp.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Changes in homework">
+      <change afterPath="$PROJECT_DIR$/src/Eight/Additional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eight/ArrayOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eight/EightHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eight/EightLecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ninght/Lecture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fourth/FourthHomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourth/FourthHomeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seventh/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seventh/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seventh/SeventhHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seventh/SeventhHomework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dreams.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dreams.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,24 +77,37 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2QTu7b73YfvecchyEN48QPuSZcJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;seven&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "seven",
+    "ignore.virus.scanning.warn.message": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.SeventhHomework">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Eight" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="Additional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fifth.Additional" />
       <module name="Dreams" />
@@ -106,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdditionalSixLecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sixth.AdditionalSixLecture" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seventh.Calculator" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sixth.*" />
+          <option name="PATTERN" value="Seventh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seventh.Calculator" />
+    <configuration name="EightLecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eight.EightLecture" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seventh.*" />
+          <option name="PATTERN" value="Eight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EightLecture" />
         <item itemvalue="Application.SeventhHomework" />
         <item itemvalue="Application.FourthHomeWork" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.Additional" />
-        <item itemvalue="Application.AdditionalSixLecture" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687189030445</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Changes in homework">
+      <created>1687423584036</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1687423584036</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,6 +416,7 @@
     <MESSAGE value="Sixth homework for cycles" />
     <MESSAGE value="Seven homework for cycles" />
     <MESSAGE value="Calculator added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator added" />
+    <MESSAGE value="Changes in homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in homework" />
   </component>
 </project>
