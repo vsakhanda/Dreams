@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Changes in homework">
-      <change afterPath="$PROJECT_DIR$/src/Eight/Additional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eight/ArrayOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eight/EightHomework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eight/EightLecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ninght/Lecture.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="eight lecture">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dreams.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dreams.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eight/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eight/ArrayOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eight/EightHomework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eight/EightHomework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eight/EightLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eight/EightLecture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,13 +104,13 @@
       <recent name="Eight" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Additional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fifth.Additional" />
+  <component name="RunManager" selected="Application.EightHomework">
+    <configuration name="ArrayOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eight.ArrayOperations" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fifth.*" />
+          <option name="PATTERN" value="Eight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seventh.Calculator" />
+    <configuration name="EightHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eight.EightHomework" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seventh.*" />
+          <option name="PATTERN" value="Eight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EightHomework" />
+        <item itemvalue="Application.ArrayOperations" />
         <item itemvalue="Application.EightLecture" />
         <item itemvalue="Application.SeventhHomework" />
         <item itemvalue="Application.FourthHomeWork" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Additional" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687423584036</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="eight lecture">
+      <created>1687464638658</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1687464638658</updated>
+    </task>
+    <task id="LOCAL-00027" summary="eight lecture">
+      <created>1687464713176</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1687464713176</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,6 +428,7 @@
     <MESSAGE value="Seven homework for cycles" />
     <MESSAGE value="Calculator added" />
     <MESSAGE value="Changes in homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in homework" />
+    <MESSAGE value="eight lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="eight lecture" />
   </component>
 </project>
