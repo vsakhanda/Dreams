@@ -8,7 +8,7 @@ public class Vehicle {
 
 
     public void type() {
-        System.out.println("Тип автомобіля");
+        System.out.println("Тип автомобіля в основному класі Vehicle");
     }
 
 

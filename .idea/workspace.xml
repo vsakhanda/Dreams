@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Homework for eleven lecture">
-      <change beforePath="$PROJECT_DIR$/src/Eleventh/HomeWork/HomeWorkEleven.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eleventh/LectureEleven.java" beforeDir="false" />
-    </list>
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Delete dublicated files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -397,7 +394,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688640199349</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Delete dublicated files">
+      <created>1688640327126</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688640327126</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Delete dublicated files">
+      <created>1688640338043</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1688640338043</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,6 +462,7 @@
     <MESSAGE value="Homework for eight lecture" />
     <MESSAGE value="Homework for tenth lecture" />
     <MESSAGE value="Homework for eleven lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework for eleven lecture" />
+    <MESSAGE value="Delete dublicated files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Delete dublicated files" />
   </component>
 </project>
