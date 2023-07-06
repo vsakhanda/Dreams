@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Delete dublicated files" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Розширення коментарів домашнього завдання">
+      <change afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/AutoPark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Vehicle.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +104,7 @@
       <recent name="Eight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Vehicle">
+  <component name="RunManager" selected="Application.AutoPark">
     <configuration name="ArrayOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Eight.ArrayOperations" />
       <module name="Dreams" />
@@ -113,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EightHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eight.EightHomework" />
+    <configuration name="AutoPark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eleven.HomeWork.AutoPark" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Eight.*" />
+          <option name="PATTERN" value="Eleven.HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,8 +131,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EightLecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eight.EightLecture" />
+    <configuration name="EightHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eight.EightHomework" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoPark" />
         <item itemvalue="Application.Vehicle" />
         <item itemvalue="Application.HomeWork" />
         <item itemvalue="Application.EightHomework" />
         <item itemvalue="Application.ArrayOperations" />
-        <item itemvalue="Application.EightLecture" />
       </list>
     </recent_temporary>
   </component>
@@ -408,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688640338043</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Розширення коментарів домашнього завдання">
+      <created>1688641088495</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688641088495</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,6 +475,7 @@
     <MESSAGE value="Homework for tenth lecture" />
     <MESSAGE value="Homework for eleven lecture" />
     <MESSAGE value="Delete dublicated files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete dublicated files" />
+    <MESSAGE value="Розширення коментарів домашнього завдання" />
+    <option name="LAST_COMMIT_MESSAGE" value="Розширення коментарів домашнього завдання" />
   </component>
 </project>

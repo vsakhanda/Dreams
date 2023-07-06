@@ -8,20 +8,11 @@ public class Vehicle {
 
 
     public void type() {
-        System.out.println("Тип автомобіля в основному класі Vehicle");
+        System.out.println("Супер клас для типу автомобілю - Тип автомобіля в основному класі Vehicle");
+    }
+    public void wheels (){
+        System.out.println("Метод для опису кількості коліс автомобіля");
     }
 
-
-    public static void main(String[] args) {
-
-        Vehicle vehicle1 = new Vehicle();
-        Vehicle vehicle2 = new Truck();
-        Vehicle vehicle3 = new Car();
-
-        vehicle1.type();
-        vehicle2.type();
-        vehicle3.type();
-
-    }
 }
 
