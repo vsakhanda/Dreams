@@ -16,6 +16,9 @@ public class AutoPark {
 
         auto3.wheels(); //Імплементація методу з класу, який наслідується.
 
+        System.out.println(auto2 instanceof Vehicle);
+        System.out.println(auto3 instanceof Vehicle);
+
     }
 
     public static void info(){

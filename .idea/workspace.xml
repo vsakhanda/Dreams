@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Added AutoPark Class and added new methods">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="edit .gitignore file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/AutoPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/AutoPark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -424,7 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688653265632</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="edit .gitignore file">
+      <created>1688653525398</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688653525398</updated>
+    </task>
+    <task id="LOCAL-00036" summary="edit .gitignore file">
+      <created>1688653560012</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1688653560012</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -481,6 +499,7 @@
     <MESSAGE value="Delete dublicated files" />
     <MESSAGE value="Розширення коментарів домашнього завдання" />
     <MESSAGE value="Added AutoPark Class and added new methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added AutoPark Class and added new methods" />
+    <MESSAGE value="edit .gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit .gitignore file" />
   </component>
 </project>

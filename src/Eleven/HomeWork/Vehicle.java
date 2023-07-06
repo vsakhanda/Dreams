@@ -7,6 +7,8 @@ package Eleven.HomeWork;
 public class Vehicle {
 
 
+
+
     public void type() {
         System.out.println("Супер клас для типу автомобілю - Тип автомобіля в основному класі Vehicle");
     }
