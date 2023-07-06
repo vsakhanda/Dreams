@@ -10,9 +10,12 @@ public class newScanner {
 
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter user name");
-
         String userName = myObj.nextLine();
+        Scanner myObj2 = new Scanner(System.in);
+        System.out.println("Enter surname");
+        String surname = myObj2.nextLine();
         System.out.println ("Username is "+ userName);
+        System.out.println ("Surname is "+ surname);
 
     }
 

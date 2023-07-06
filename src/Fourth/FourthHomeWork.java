@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class FourthHomeWork {
     public static void main(String[] args) {
 
-        String test = "Raw For Fome work";
+        String test = "Raw For homeWork";
         System.out.println(test.length());
         System.out.println(test.toUpperCase());
         System.out.println(test.toLowerCase());
