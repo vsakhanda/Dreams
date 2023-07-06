@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Homework for eight lecture">
-      <change afterPath="$PROJECT_DIR$/src/Eleventh/HomeWork/HomeWorkEleven.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Eleventh/LectureEleven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Vehicle.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Homework for eleven lecture">
+      <change beforePath="$PROJECT_DIR$/src/Eleventh/HomeWork/HomeWorkEleven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Eleventh/LectureEleven.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,7 +383,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687470278315</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Homework for tenth lecture">
+      <created>1688640181320</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1688640181320</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Homework for eleven lecture">
+      <created>1688640199349</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688640199349</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,6 +449,8 @@
     <MESSAGE value="Changes in homework" />
     <MESSAGE value="eight lecture" />
     <MESSAGE value="Homework for eight lecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework for eight lecture" />
+    <MESSAGE value="Homework for tenth lecture" />
+    <MESSAGE value="Homework for eleven lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework for eleven lecture" />
   </component>
 </project>
