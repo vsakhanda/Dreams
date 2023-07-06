@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Homework for eight lecture">
-      <change afterPath="$PROJECT_DIR$/src/Tenth/HomeWork/HomeWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tenth/HomeWork/Lector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tenth/HomeWork/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tenth/Lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Eleven/Lecture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +105,7 @@
       <recent name="Eight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWork">
+  <component name="RunManager" selected="Application.Vehicle">
     <configuration name="ArrayOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Eight.ArrayOperations" />
       <module name="Dreams" />
@@ -158,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeventhHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seventh.SeventhHomework" />
+    <configuration name="Vehicle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eleven.HomeWork.Vehicle" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seventh.*" />
+          <option name="PATTERN" value="Eleven.HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Vehicle" />
         <item itemvalue="Application.HomeWork" />
         <item itemvalue="Application.EightHomework" />
         <item itemvalue="Application.ArrayOperations" />
         <item itemvalue="Application.EightLecture" />
-        <item itemvalue="Application.SeventhHomework" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +414,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="thirdlecture" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
