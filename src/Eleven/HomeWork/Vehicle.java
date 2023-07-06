@@ -4,19 +4,24 @@ package Eleven.HomeWork;
 //
 //2. У кожному класі повинен бути перевизначений метод, який повертає тип автомобіля
 
-public class Vehicle{
+public class Vehicle {
 
 
-    public static void main(String[] args){
-
-        venew Vehicle();
-
-    }
-
-    public Vehicle() {
+    public void type() {
         System.out.println("Тип автомобіля");
-
-
     }
 
+
+    public static void main(String[] args) {
+
+        Vehicle vehicle1 = new Vehicle();
+        Vehicle vehicle2 = new Truck();
+        Vehicle vehicle3 = new Car();
+
+        vehicle1.type();
+        vehicle2.type();
+        vehicle3.type();
+
+    }
 }
+
