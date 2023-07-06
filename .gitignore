@@ -3,6 +3,7 @@
 .idea/workspace.xml
 .idea/uiDesigner.xml
 .idea/git_toolbox_prj.xml
+.idea/workspace.xml
 
 out/
 !**/src/main/**/out/
