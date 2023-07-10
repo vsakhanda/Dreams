@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="edit .gitignore file">
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="HomeWork12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/AutoPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/AutoPark.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Truck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eleven/HomeWork/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eleven/HomeWork/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twelve_OOP_3/HomeWork/Children.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twelve_OOP_3/HomeWork/Children.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twelve_OOP_3/HomeWork/HomeWorkTwelve.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twelve_OOP_3/HomeWork/HomeWorkTwelve.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Twelve_OOP_3/HomeWork/ParentClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Twelve_OOP_3/HomeWork/ParentClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -105,20 +104,7 @@
       <recent name="Eight" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AutoPark">
-    <configuration name="ArrayOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eight.ArrayOperations" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Eight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HomeWorkTwelve">
     <configuration name="AutoPark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Eleven.HomeWork.AutoPark" />
       <module name="Dreams" />
@@ -132,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EightHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eight.EightHomework" />
+    <configuration name="HomeWorkTwelve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Twelve_OOP_3.HomeWork.HomeWorkTwelve" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Eight.*" />
+          <option name="PATTERN" value="Twelve_OOP_3.HomeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tenth.HomeWork.HomeWork" />
+    <configuration name="Lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Twelve_OOP_3.Lecture" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tenth.HomeWork.*" />
+          <option name="PATTERN" value="Twelve_OOP_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +144,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vehicle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eleven.HomeWork.Vehicle" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Twelve_OOP_3.StaticFields.Main" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Eleven.HomeWork.*" />
+          <option name="PATTERN" value="Twelve_OOP_3.StaticFields.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mainInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Twelve_OOP_3.Init.mainInit" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Twelve_OOP_3.Init.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWorkTwelve" />
+        <item itemvalue="Application.mainInit" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Lecture" />
         <item itemvalue="Application.AutoPark" />
-        <item itemvalue="Application.Vehicle" />
-        <item itemvalue="Application.HomeWork" />
-        <item itemvalue="Application.EightHomework" />
-        <item itemvalue="Application.ArrayOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -442,7 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688653560012</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="edit homework">
+      <created>1688656206091</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1688656206091</updated>
+    </task>
+    <task id="LOCAL-00038" summary="HomeWork12">
+      <created>1689005527455</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1689005527455</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,6 +513,8 @@
     <MESSAGE value="Розширення коментарів домашнього завдання" />
     <MESSAGE value="Added AutoPark Class and added new methods" />
     <MESSAGE value="edit .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit .gitignore file" />
+    <MESSAGE value="edit homework" />
+    <MESSAGE value="HomeWork12" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork12" />
   </component>
 </project>
