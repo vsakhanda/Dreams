@@ -19,11 +19,10 @@ public abstract class Student {
     public void setAge(String age) {
         this.age = age;
     }
-    public String getName() {return Name;};
+    public String getName() {return Name;}
     public void setName(String Name) {
         this.Name = Name;}
 
-    public abstract void score()
             ;
     public abstract void info();
 

@@ -34,7 +34,7 @@ public class Lecturer {
         System.out.println("   Additional Subject = " + professor.getAdditionalSubject());
     }
 
-    private class Professor {
+    private static class Professor {
         private String mainSubject;
         private String additionalSubject;
 
@@ -62,5 +62,5 @@ public class Lecturer {
                     '}';
         }
     }
-};
+}
 
