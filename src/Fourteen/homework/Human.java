@@ -11,6 +11,6 @@ public abstract class Human {
         this.name = name;
     }
     public void wakeUp(){
-    };
+    }
 
 }
