@@ -4,39 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="HomeWork13">
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Draw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Interfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Nature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Rotate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Interf/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Lecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Practice/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Practice/GeometricShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Practice/MainInterfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/Practice/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/PracticeFour/Compareble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/PracticeFour/PracticeFour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/PracticeFour/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/PracticeThree/AirPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/PracticeThree/BirdObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/PracticeThree/FlyingObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/PracticeThree/MainPracticeThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/PracticeThree/Steerable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thirteen/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thirteen/inner/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Thirteen/inner/Main.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Lecture 14">
+      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Drive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Fly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Homework14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Pilot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fourteen/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourteen/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fourteen/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourteen/DVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fourteen/MediaPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fourteen/MediaPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Thirteen/ThirteenLecure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thirteen/ThirteenLecure.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,13 +119,13 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PracticeFour">
-    <configuration name="Interfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fourteen.Interf.Interfaces" />
+  <component name="RunManager" selected="Application.Homework14">
+    <configuration name="Homework14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fourteen.homework.Homework14" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fourteen.Interf.*" />
+          <option name="PATTERN" value="Fourteen.homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fourteen.Lecture" />
+    <configuration name="Interfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fourteen.Interf.Interfaces" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
@@ -212,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework14" />
         <item itemvalue="Application.PracticeFour" />
         <item itemvalue="Application.MainPracticeThree" />
         <item itemvalue="Application.Interfaces" />
         <item itemvalue="Application.MainInterfaces" />
-        <item itemvalue="Application.Lecture" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Lecture 14">
+      <option name="closed" value="true" />
+      <created>1689621889418</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1689621889418</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -565,7 +548,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Я починаю курс Java в robot_dreams і вже вмію використовувати Git" />
     <MESSAGE value="new comment for commit" />
     <MESSAGE value="030623 20 home work" />
     <MESSAGE value="Scanner creation on Windows" />
@@ -590,7 +572,8 @@
     <MESSAGE value="edit homework" />
     <MESSAGE value="HomeWork12" />
     <MESSAGE value="HomeWork13" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork13" />
+    <MESSAGE value="Lecture 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 14" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
