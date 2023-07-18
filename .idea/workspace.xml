@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Lecture 14">
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Drive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Fly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Homework14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fourteen/homework/Pilot.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Homework14">
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/Homework/Homework15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/InterfaceWithGenerics/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/InterfaceWithGenerics/GenericSwap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/InterfaceWithGenerics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/InterfaceWithGenerics/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/Lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/NumericBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +90,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QTu7b73YfvecchyEN48QPuSZcJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -119,7 +124,7 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework14">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Homework14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fourteen.homework.Homework14" />
       <module name="Dreams" />
@@ -133,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fourteen.Interf.Interfaces" />
+    <configuration name="Lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fifteen.Lecture" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fourteen.Interf.*" />
+          <option name="PATTERN" value="Fifteen.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fourteen.Practice.MainInterfaces" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fifteen.InterfaceWithGenerics.Main" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Fourteen.Practice.*" />
+          <option name="PATTERN" value="Fifteen.InterfaceWithGenerics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Lecture" />
         <item itemvalue="Application.Homework14" />
         <item itemvalue="Application.PracticeFour" />
         <item itemvalue="Application.MainPracticeThree" />
-        <item itemvalue="Application.Interfaces" />
-        <item itemvalue="Application.MainInterfaces" />
       </list>
     </recent_temporary>
   </component>
@@ -513,7 +518,31 @@
       <option name="project" value="LOCAL" />
       <updated>1689621889418</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Homework14">
+      <option name="closed" value="true" />
+      <created>1689624000201</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1689624000201</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Homework14">
+      <option name="closed" value="true" />
+      <created>1689624023723</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1689624023723</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Homework14">
+      <option name="closed" value="true" />
+      <created>1689624025531</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1689624025531</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -548,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new comment for commit" />
     <MESSAGE value="030623 20 home work" />
     <MESSAGE value="Scanner creation on Windows" />
     <MESSAGE value="Third homework" />
@@ -573,7 +601,8 @@
     <MESSAGE value="HomeWork12" />
     <MESSAGE value="HomeWork13" />
     <MESSAGE value="Lecture 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture 14" />
+    <MESSAGE value="Homework14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework14" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
