@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Homework14">
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/Homework/Homework15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/InterfaceWithGenerics/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/InterfaceWithGenerics/GenericSwap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/InterfaceWithGenerics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/InterfaceWithGenerics/Text.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/Lecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/NumericBox.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Lecture 15">
+      <change afterPath="$PROJECT_DIR$/src/Fifteen/Homework/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fifteen/Homework/Homework15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fifteen/Homework/Homework15.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,13 +117,26 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Homework15">
     <configuration name="Homework14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fourteen.homework.Homework14" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Fourteen.homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fifteen.Homework.Homework15" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Fifteen.Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +170,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPracticeThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fourteen.PracticeThree.MainPracticeThree" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Fourteen.PracticeThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PracticeFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fourteen.PracticeFour.PracticeFour" />
       <module name="Dreams" />
@@ -192,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Homework15" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lecture" />
         <item itemvalue="Application.Homework14" />
         <item itemvalue="Application.PracticeFour" />
-        <item itemvalue="Application.MainPracticeThree" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +535,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689624025531</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Lecture 15">
+      <option name="closed" value="true" />
+      <created>1689713354659</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1689713354659</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Lecture 15">
+      <option name="closed" value="true" />
+      <created>1689713423716</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1689713423716</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -577,7 +586,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="030623 20 home work" />
     <MESSAGE value="Scanner creation on Windows" />
     <MESSAGE value="Third homework" />
     <MESSAGE value="Forth homeWork" />
@@ -602,7 +610,8 @@
     <MESSAGE value="HomeWork13" />
     <MESSAGE value="Lecture 14" />
     <MESSAGE value="Homework14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework14" />
+    <MESSAGE value="Lecture 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lecture 15" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
