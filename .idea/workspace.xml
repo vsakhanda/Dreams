@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Lecture 15">
-      <change afterPath="$PROJECT_DIR$/src/Fifteen/Homework/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fifteen/Homework/Homework15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fifteen/Homework/Homework15.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Homework15">
+      <change beforePath="$PROJECT_DIR$/src/Fifteen/Homework/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fifteen/Homework/Pair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -503,22 +501,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00044" summary="Lecture 14">
-      <option name="closed" value="true" />
-      <created>1689621889418</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1689621889418</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Homework14">
-      <option name="closed" value="true" />
-      <created>1689624000201</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1689624000201</updated>
-    </task>
     <task id="LOCAL-00046" summary="Homework14">
       <option name="closed" value="true" />
       <created>1689624023723</created>
@@ -551,7 +533,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689713423716</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Homework15">
+      <option name="closed" value="true" />
+      <created>1689852101694</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1689852101694</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Homework15">
+      <option name="closed" value="true" />
+      <created>1689854768745</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1689854768745</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -586,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Scanner creation on Windows" />
     <MESSAGE value="Third homework" />
     <MESSAGE value="Forth homeWork" />
     <MESSAGE value="Fifth lecture and HomeWork commit" />
@@ -611,7 +608,8 @@
     <MESSAGE value="Lecture 14" />
     <MESSAGE value="Homework14" />
     <MESSAGE value="Lecture 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lecture 15" />
+    <MESSAGE value="Homework15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework15" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

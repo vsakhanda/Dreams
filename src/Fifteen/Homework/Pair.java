@@ -1,9 +1,9 @@
 package Fifteen.Homework;
 
-public class Pair<G> {
+public class Pair {
 
-    static int index = 0; // First element
-    static int index1 = 1; //Second element
+    static int index = 0; // Index for First element
+    static int index1 = 1; //Index for Second element
 
 
     //
