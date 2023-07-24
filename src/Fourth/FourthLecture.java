@@ -18,7 +18,7 @@ public class FourthLecture {
 
         String test = "test";
         System.out.println(test.length());
-        System.out.println(test.concat("Upper").concat("Eleven"));
+        System.out.println(test.concat("Upper").concat("ElevenOOP_2"));
         System.out.println(test.toUpperCase());
 
 /*
