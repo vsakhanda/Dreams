@@ -3,6 +3,9 @@ package Seventeen_Collections;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
+
+
+
 public class Lecture17 {
 
     public static void main(String[] args) {
@@ -38,11 +41,11 @@ public class Lecture17 {
         long end = System.currentTimeMillis();
         System.out.println("arraylist total" + " " + (endDel-startAdd));
 
-// LINKEDLIST
+// LINKED LIST
 
         long startLinkedListAdd = System.currentTimeMillis();
         LinkedList<Integer> numberLinkedList = new LinkedList<>();
-        for (int i = 0; i < 200000; i++){
+        for (int i = 0; i < 1000 ; i++){
             numberLinkedList.add(i);
         }
         long endLinkedListAdd = System.currentTimeMillis();
@@ -53,7 +56,7 @@ public class Lecture17 {
             numberLinkedList.get(i);
         }
         long endLinkedListGet = System.currentTimeMillis();
-        System.out.println("Getting Linked list elements (seconds)" + " " + (endLinkedListGet-startLinkedListGet)/1000);
+        System.out.println("Getting Linked list elements" + " " + (endLinkedListGet-startLinkedListGet));
 
         long startLinkedListDel = System.currentTimeMillis();
         for (int i = 0; i< numberLinkedList.size(); i++) {
@@ -61,9 +64,8 @@ public class Lecture17 {
         }
 
         long endLinkedList = System.currentTimeMillis();
-        System.out.println("Deleting Linked list elements (seconds)" + " " + (endLinkedList-startLinkedListDel)/1000 + " seconds") ;
-        System.out.println("linkedList total time(Seconds)" +
-                ")" + " " + (endLinkedList-startLinkedListAdd)/1000 + " seconds");
+        System.out.println("Deleting Linked list elements" + " " + (endLinkedList-startLinkedListDel)) ;
+        System.out.println("linkedList total time" + " " + (endLinkedList-startLinkedListAdd) );
 
 
 
