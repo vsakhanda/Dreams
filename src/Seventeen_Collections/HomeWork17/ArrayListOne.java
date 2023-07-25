@@ -2,7 +2,7 @@ package Seventeen_Collections.HomeWork17;
 
 public class ArrayListOne {
 
-    public static void ArrayListOne(int numberOfElementsAL) {
+    public static void arrayListOne(int numberOfElementsAL) {
 
         if (numberOfElementsAL<10000) {
             System.out.println("Array list begin");
@@ -20,11 +20,11 @@ public class ArrayListOne {
 
 // Відображення парних числе в масиві Array list
             System.out.println("Парні елементи в Array List");
-            for(int i=0; i<numberArrayList.size(); i++) {
+            for(int i=0; i<numberArrayList.size(); i++)
                 if(numberArrayList.get(i) % 2 == 0) {
                     System.out.println(numberArrayList.get(i));
                 }
-            }
+
 
 
             long endGet = System.currentTimeMillis(); // відображення початку виконання операції
@@ -36,7 +36,7 @@ public class ArrayListOne {
             }
             long endDel = System.currentTimeMillis(); // відображення початку виконання операції
             System.out.println("arraylist deleting elements " + " " + (endDel - startDel));
-            long end = System.currentTimeMillis();
+//            long end = System.currentTimeMillis();
             System.out.println("arraylist total" + " " + (endDel - startAdd));
             System.out.println("Array list ends");
         }

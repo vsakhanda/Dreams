@@ -108,7 +108,7 @@ public class HomeWork17 {
 
 //4. Optional Array list and Linked List
        System.out.println("4. Optional Array list and Linked List");
-       ArrayListOne.ArrayListOne(10);
+       ArrayListOne.arrayListOne(10);
        System.out.println("*****");
        LinkedListOne.LinkedList(10);
        System.out.println("*****");
