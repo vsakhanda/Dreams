@@ -1,8 +1,8 @@
 package Seventeen_Collections.HomeWork17;
 
-public class ArrayList {
+public class ArrayListOne {
 
-    public static void ArrayList(int numberOfElementsAL) {
+    public static void ArrayListOne(int numberOfElementsAL) {
 
         if (numberOfElementsAL<10000) {
             System.out.println("Array list begin");

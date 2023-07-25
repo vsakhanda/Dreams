@@ -1,6 +1,6 @@
 package Seventeen_Collections.HomeWork17;
 
-public class LinkedList {
+public class LinkedListOne {
 
     public static void LinkedList(int numberOfElementsLL) {
 
@@ -21,6 +21,7 @@ public class LinkedList {
 // Відображення непарних елементів в Linked List
 
             System.out.println("Непарні елементи в Linked List");
+            // "Обгортка" елементів списку в цикл для парності елементів
             for(int i=0; i<numberLinkedList.size(); i++) {
                 if(numberLinkedList.get(i) % 2 != 0) {
                     System.out.println(numberLinkedList.get(i));
