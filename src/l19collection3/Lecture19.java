@@ -10,6 +10,7 @@ public class Lecture19 {
         workWithMapMethods();
         workDirectWithTreeMap();
         workDirectWithLinkedHashMap();
+        treeMapInDetails();
 
     }
 
@@ -164,6 +165,37 @@ public class Lecture19 {
         treeMap.put("One", 1);
         treeMap.put("Two", 2);
         System.out.println(treeMap);
+    }
+
+    private static void treeMapInDetails() {
+
+        /*
+        lowerKey(K key): Повертає найбільший ключ, менший, ніж заданий.
+        lowerEntry(K key): Повертає запис з найбільшим ключем, меншим, ніж заданий.
+        floorKey(K key): Повертає найбільший ключ, менший або рівний заданому.
+        floorEntry(K key): Повертає запис з найбільшим ключем, меншим або рівним заданому.
+        ceilingKey(K key): Повертає найменший ключ, більший або рівний заданому.
+        ceilingEntry(K key): Повертає запис з найменшим ключем, більшим або рівним заданому.
+        higherKey(K key): Повертає найменший ключ, більший, ніж заданий.
+        higherEntry(K key): Повертає запис з найменшим ключем, більшим, ніж заданий.
+        firstEntry(): Повертає запис з найменшим ключем в цій мапі, або null, якщо мапа порожня.
+        lastEntry(): Повертає запис з найбільшим ключем в цій мапі, або null, якщо мапа порожня.
+         */
+
+        TreeMap<Integer, String> treeMap = new TreeMap<>();
+        treeMap.put(10, "Ten");
+        treeMap.put(20, "Twenty");
+        treeMap.put(26, "Twenty26");
+        treeMap.put(30, "Thirty");
+        treeMap.put(40, "Forty");
+        treeMap.put(50, "Fifty");
+
+        System.out.println(treeMap.higherKey(25));  // Prints: 30
+        System.out.println(treeMap.floorKey(25));   // Prints: 20
+        System.out.println(treeMap.ceilingKey(25)); // Prints: 30
+        System.out.println(treeMap.lowerKey(25));   // Prints: 20
+        System.out.println(treeMap.firstEntry());   // Prints: 10=Ten
+        System.out.println(treeMap.lastEntry());    // Prints: 50=Fifty
     }
 
 }

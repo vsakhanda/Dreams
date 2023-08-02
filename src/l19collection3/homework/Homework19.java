@@ -10,7 +10,6 @@ public class Homework19 {
 
     public static void main(String[] args){
 
-
         Scanner wordTranslate = new Scanner(System.in);
         System.out.println("Виберіть одне з визнаених слів для перекладу");
         System.out.println("один, два, три, дерево, дім, кінь, садок, лекція, вишня, програма");

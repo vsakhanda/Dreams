@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="HomeWork18">
-      <change afterPath="$PROJECT_DIR$/src/Eigthteen_Collection_2/practice/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l19collection3/Alian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l19collection3/Lecture19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l19collection3/homework/Homework19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l19collection3/homework/vocabulary.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="HomeWork19">
+      <change afterPath="$PROJECT_DIR$/src/l19collection3/practice/countWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l19collection3/practice/practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l20practice/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l19collection3/Lecture19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l19collection3/Lecture19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l19collection3/homework/Homework19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l19collection3/homework/Homework19.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,20 +122,7 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework19">
-    <configuration name="Additional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EightArrays.Additional" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EightArrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.practice">
     <configuration name="HomeWork18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Eigthteen_Collection_2.HomeWork.HomeWork18" />
       <module name="Dreams" />
@@ -175,12 +162,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Randome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eigthteen_Collection_2.HomeWork.Randome" />
+    <configuration name="countWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l19collection3.practice.countWords" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Eigthteen_Collection_2.HomeWork.*" />
+          <option name="PATTERN" value="l19collection3.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l19collection3.practice.practice" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l19collection3.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Homework19" />
+        <item itemvalue="Application.practice" />
+        <item itemvalue="Application.countWords" />
         <item itemvalue="Application.Lecture19" />
+        <item itemvalue="Application.Homework19" />
         <item itemvalue="Application.HomeWork18" />
-        <item itemvalue="Application.Additional" />
-        <item itemvalue="Application.Randome" />
       </list>
     </recent_temporary>
   </component>
@@ -508,14 +508,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00050" summary="Homework15">
-      <option name="closed" value="true" />
-      <created>1689852101694</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1689852101694</updated>
-    </task>
     <task id="LOCAL-00051" summary="Homework15">
       <option name="closed" value="true" />
       <created>1689854768745</created>
@@ -556,7 +548,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690573094545</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="HomeWork19">
+      <option name="closed" value="true" />
+      <created>1690897571187</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1690897571187</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,7 +591,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sixth Lecture" />
     <MESSAGE value="Fifth HomeWork" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Fifth/FifthHomeWork.java" />
     <MESSAGE value="Sixth homework for cycles" />
@@ -616,7 +615,15 @@
     <MESSAGE value="Lecture 17" />
     <MESSAGE value="HomeWork17" />
     <MESSAGE value="HomeWork18" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork18" />
+    <MESSAGE value="HomeWork19" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork19" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="tab.length" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
