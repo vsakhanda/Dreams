@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Refactoring">
-      <change afterPath="$PROJECT_DIR$/src/l20practice/ArrayListInPut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/CompareName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/CompareScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/HomeWork21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/Lecture21.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/SimpleInterface.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Homework21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l07Seventh/AddRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l07Seventh/AddRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l08EightArrays/Additional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l08EightArrays/Additional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l09Ninght/Lecture.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l18Eigthteen_Collection_2/practice/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l18Eigthteen_Collection_2/practice/practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l20practice/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l20practice/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/HomeWork21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/HomeWork21.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -515,22 +504,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00053" summary="Lecture 17">
-      <option name="closed" value="true" />
-      <created>1690220392337</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1690220392338</updated>
-    </task>
-    <task id="LOCAL-00054" summary="HomeWork17">
-      <option name="closed" value="true" />
-      <created>1690317178581</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1690317178581</updated>
-    </task>
     <task id="LOCAL-00055" summary="HomeWork18">
       <option name="closed" value="true" />
       <created>1690573094545</created>
@@ -563,7 +536,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691057611769</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Homework21">
+      <option name="closed" value="true" />
+      <created>1691696946826</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1691696946826</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Homework21">
+      <option name="closed" value="true" />
+      <created>1691705842079</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1691705842079</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -598,7 +587,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Sixth homework for cycles" />
     <MESSAGE value="Seven homework for cycles" />
     <MESSAGE value="Calculator added" />
     <MESSAGE value="Changes in homework" />
@@ -623,7 +611,8 @@
     <MESSAGE value="HomeWork19" />
     <MESSAGE value="Practice and HomeWork 19" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="Homework21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

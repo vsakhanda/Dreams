@@ -2,13 +2,13 @@ package l21StreamAPILambda.HomeWork;
 
 public class Student {
 
-    public Student(String name, Integer score) {
+    public Student(String name, int score) {
         this.Name = name;
         this.Score = score;
     }
 
     private String Name;
-    private Integer Score;
+    private int Score;
 
     public String getName() {
         return Name;
@@ -18,7 +18,7 @@ public class Student {
         Name = name;
     }
 
-    public Integer getScore() {
+    public int getScore() {
         return Score;
     }
 
@@ -26,22 +26,21 @@ public class Student {
         Score = score;
     }
 
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Student student)) return false;
-        if (!Name.equals(student.Name)) return false;
-        return Score.equals(student.Score);
+
+        if (Score != student.Score) return false;
+        return Name.equals(student.Name);
     }
 
     @Override
     public int hashCode() {
         int result = Name.hashCode();
-        result = 31 * result + Score.hashCode();
+        result = 31 * result + Score;
         return result;
     }
-
 
     @Override
     public String toString() {
