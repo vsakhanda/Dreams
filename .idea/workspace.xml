@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="HomeWork19">
-      <change afterPath="$PROJECT_DIR$/src/l19collection3/practice/countWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l19collection3/practice/practice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l20practice/main.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/src/l20practice/ArrayListInPut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/CompareName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/CompareScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/HomeWork21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/Lecture21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/SimpleInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l19collection3/Lecture19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l19collection3/Lecture19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l19collection3/homework/Homework19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l19collection3/homework/Homework19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l07Seventh/AddRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l07Seventh/AddRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l08EightArrays/Additional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l08EightArrays/Additional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l09Ninght/Lecture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l18Eigthteen_Collection_2/practice/practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l18Eigthteen_Collection_2/practice/practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l20practice/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l20practice/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -122,13 +129,26 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practice">
-    <configuration name="HomeWork18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eigthteen_Collection_2.HomeWork.HomeWork18" />
+  <component name="RunManager" selected="Application.HomeWork21">
+    <configuration name="HomeWork21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l21StreamAPILambda.HomeWork.HomeWork21" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Eigthteen_Collection_2.HomeWork.*" />
+          <option name="PATTERN" value="l21StreamAPILambda.HomeWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Homework15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l15FifteenGenerics.Homework.Homework15" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l15FifteenGenerics.Homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l19collection3.Lecture19" />
+    <configuration name="Lecture21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l21StreamAPILambda.Lecture21" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l19collection3.*" />
+          <option name="PATTERN" value="l21StreamAPILambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,25 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="countWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l19collection3.practice.countWords" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l20practice.main" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l19collection3.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l19collection3.practice.practice" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="l19collection3.practice.*" />
+          <option name="PATTERN" value="l20practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.practice" />
-        <item itemvalue="Application.countWords" />
-        <item itemvalue="Application.Lecture19" />
+        <item itemvalue="Application.HomeWork21" />
+        <item itemvalue="Application.Homework15" />
+        <item itemvalue="Application.Lecture21" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.Homework19" />
-        <item itemvalue="Application.HomeWork18" />
       </list>
     </recent_temporary>
   </component>
@@ -508,22 +515,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00051" summary="Homework15">
-      <option name="closed" value="true" />
-      <created>1689854768745</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1689854768745</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Homework15">
-      <option name="closed" value="true" />
-      <created>1689854832766</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1689854832766</updated>
-    </task>
     <task id="LOCAL-00053" summary="Lecture 17">
       <option name="closed" value="true" />
       <created>1690220392337</created>
@@ -556,7 +547,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690897571187</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Practice and HomeWork 19">
+      <option name="closed" value="true" />
+      <created>1691000928007</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1691000928007</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1691057611769</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1691057611769</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -591,8 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fifth HomeWork" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Fifth/FifthHomeWork.java" />
     <MESSAGE value="Sixth homework for cycles" />
     <MESSAGE value="Seven homework for cycles" />
     <MESSAGE value="Calculator added" />
@@ -616,9 +621,19 @@
     <MESSAGE value="HomeWork17" />
     <MESSAGE value="HomeWork18" />
     <MESSAGE value="HomeWork19" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork19" />
+    <MESSAGE value="Practice and HomeWork 19" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassCastException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="tab.length" language="JAVA" />

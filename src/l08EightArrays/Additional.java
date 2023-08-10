@@ -53,8 +53,6 @@ public class Additional {
 
 // Двомірний масив
 
-
-
     public static void twoDim() {
         System.out.println("Двомірні масиви");
         System.out.println("Другий варіант ініціалізації двомірного масиву");

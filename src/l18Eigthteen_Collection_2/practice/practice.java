@@ -24,8 +24,5 @@ package l18Eigthteen_Collection_2.practice;
     Map<String,Integer> firstInputMap = new HashMap();
     Map<Integer, HashSet<String>> outPutMap = new HashMap();
      */
-
-
-
 public class practice {
 }
