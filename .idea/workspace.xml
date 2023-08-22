@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="Homework21">
+      <change afterPath="$PROJECT_DIR$/src/l22StreamAPIPart2/HomeWork21/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l22StreamAPIPart2/Lecture22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l22StreamAPIPart2/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l24Exceptions/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l24Exceptions/Lecture24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l24Exceptions/homeWork/belowZeroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l24Exceptions/homeWork/exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l24Exceptions/homeWork/homeWork24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/HomeWork21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/HomeWork21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/CompareName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l21StreamAPILambda/HomeWork/CompareName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +51,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -73,9 +82,7 @@
     <option name="SORT_ALPHABETICALLY" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Thirteen/Dog.java" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/Thirteen/HomeWork/HomeWork.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Thirteen/practice/mainPractice.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/l24Exceptions/Lecture24.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,6 +90,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2QTu7b73YfvecchyEN48QPuSZcJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -91,24 +101,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "configurable.group.tools"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="l24Exceptions.homeWork" />
       <recent name="Eight" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -118,7 +132,7 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWork21">
+  <component name="RunManager" selected="Application.homeWork24">
     <configuration name="HomeWork21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l21StreamAPILambda.HomeWork.HomeWork21" />
       <module name="Dreams" />
@@ -132,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l15FifteenGenerics.Homework.Homework15" />
+    <configuration name="Lecture24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l24Exceptions.Lecture24" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l15FifteenGenerics.Homework.*" />
+          <option name="PATTERN" value="l24Exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Homework19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l19collection3.homework.Homework19" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l22StreamAPIPart2.HomeWork21.Main" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l19collection3.homework.*" />
+          <option name="PATTERN" value="l22StreamAPIPart2.HomeWork21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l21StreamAPILambda.Lecture21" />
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l22StreamAPIPart2.Practice" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l21StreamAPILambda.*" />
+          <option name="PATTERN" value="l22StreamAPIPart2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l20practice.main" />
+    <configuration name="homeWork24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l24Exceptions.homeWork.homeWork24" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l20practice.*" />
+          <option name="PATTERN" value="l24Exceptions.homeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeWork24" />
+        <item itemvalue="Application.Lecture24" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Practice" />
         <item itemvalue="Application.HomeWork21" />
-        <item itemvalue="Application.Homework15" />
-        <item itemvalue="Application.Lecture21" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.Homework19" />
       </list>
     </recent_temporary>
   </component>
@@ -504,14 +518,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00055" summary="HomeWork18">
-      <option name="closed" value="true" />
-      <created>1690573094545</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1690573094545</updated>
-    </task>
     <task id="LOCAL-00056" summary="HomeWork19">
       <option name="closed" value="true" />
       <created>1690897571187</created>
@@ -552,7 +558,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691705842079</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Homework21">
+      <option name="closed" value="true" />
+      <created>1691706333026</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1691706333026</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -620,6 +634,18 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ClassCastException" package="java.lang" />
           <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArithmeticException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.InputMismatchException" package="java.util" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="14" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
