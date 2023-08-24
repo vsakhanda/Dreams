@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork24">
-      <change afterPath="$PROJECT_DIR$/src/l24Exceptions/homeWork/taskOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l24Exceptions/homeWork/taskTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l24Exceptions/homeWork/taskTwoAlternative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l25Files/homeWork25/homeWork25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l25Files/lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/HomeWork/HomeWork26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/Lecture26.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l24Exceptions/homeWork/homeWork24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l24Exceptions/homeWork/homeWork24.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,20 +125,7 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homeWork24">
-    <configuration name="HomeWork21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l21StreamAPILambda.HomeWork.HomeWork21" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="l21StreamAPILambda.HomeWork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.lecture">
     <configuration name="Lecture24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l24Exceptions.Lecture24" />
       <module name="Dreams" />
@@ -191,13 +178,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l25Files.lecture" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l25Files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lecture" />
         <item itemvalue="Application.homeWork24" />
         <item itemvalue="Application.Lecture24" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.HomeWork21" />
       </list>
     </recent_temporary>
   </component>
@@ -511,14 +511,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00057" summary="Practice and HomeWork 19">
-      <option name="closed" value="true" />
-      <created>1691000928007</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1691000928007</updated>
-    </task>
     <task id="LOCAL-00058" summary="Refactoring">
       <option name="closed" value="true" />
       <created>1691057611769</created>
@@ -559,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692725053783</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="homeWork24">
+      <option name="closed" value="true" />
+      <created>1692735194472</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1692735194472</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
