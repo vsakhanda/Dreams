@@ -3,6 +3,10 @@ package l25Files.homeWork25;
 //Створити класс з 2 функціями. Перша зберігає отриману строку у файл. Друга - зчитує дані з файлу та повертає його користувачу
 
 
+// + Буфризація
+// + Серелізація/Десерелізація
+// + Папки та місця збереження.
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -32,9 +36,9 @@ public class homeWork25 {
     public static void reader(File fileMine){
         StringBuilder stringBuilder = new StringBuilder(); // Створення StringBuilder дл опису нового об'єкту
         try (FileReader fileReader = new FileReader(fileMine)) { // Обгортка try catch
-            int ch;                                                //
-            while(  (ch = fileReader.read()) != -1) {
-                stringBuilder.append((char) ch);
+            int ch;                                                // Специфіка байтів. Змінна ch
+            while(  (ch = fileReader.read()) != -1) {               // Виконувати читання поки read не поверне -1 - специфіка реалізації.
+                stringBuilder.append((char) ch);                    // Перетворення в дата-тип. char трансформує дані юнікод в символ.
             }
         }catch (IOException e){ // Опис виключення
             e.printStackTrace();

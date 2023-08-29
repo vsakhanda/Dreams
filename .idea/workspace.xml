@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork24">
-      <change afterPath="$PROJECT_DIR$/src/l25Files/homeWork25/homeWork25.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l25Files/lecture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/HomeWork/HomeWork26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/Lecture26.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork25">
+      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/buffers/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/channels/Channels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/files/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/selectors/Selectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/Lecture27.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l25Files/homeWork25/homeWork25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l25Files/homeWork25/homeWork25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l25Files/lecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l25Files/lecture25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l26Files2NIO/HomeWork/HomeWork26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l26Files2NIO/homeWork/HomeWork26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l26Files2NIO/Lecture26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l26Files2NIO/Lecture26.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,13 +130,13 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lecture">
-    <configuration name="Lecture24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l24Exceptions.Lecture24" />
+  <component name="RunManager" selected="Application.HomeWork26">
+    <configuration name="Buffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l26Files2NIO.buffers.Buffer" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l24Exceptions.*" />
+          <option name="PATTERN" value="l26Files2NIO.buffers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l22StreamAPIPart2.HomeWork21.Main" />
+    <configuration name="Channels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l26Files2NIO.channels.Channels" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l22StreamAPIPart2.HomeWork21.*" />
+          <option name="PATTERN" value="l26Files2NIO.channels.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l22StreamAPIPart2.Practice" />
+    <configuration name="Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l26Files2NIO.files.Files" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l22StreamAPIPart2.*" />
+          <option name="PATTERN" value="l26Files2NIO.files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeWork24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l24Exceptions.homeWork.homeWork24" />
+    <configuration name="HomeWork26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l26Files2NIO.homeWork.HomeWork26" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l24Exceptions.homeWork.*" />
+          <option name="PATTERN" value="l26Files2NIO.homeWork.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l25Files.lecture" />
+    <configuration name="homeWork25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l25Files.homeWork25.homeWork25" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l25Files.*" />
+          <option name="PATTERN" value="l25Files.homeWork25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lecture" />
-        <item itemvalue="Application.homeWork24" />
-        <item itemvalue="Application.Lecture24" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Practice" />
+        <item itemvalue="Application.HomeWork26" />
+        <item itemvalue="Application.Files" />
+        <item itemvalue="Application.Channels" />
+        <item itemvalue="Application.Buffer" />
+        <item itemvalue="Application.homeWork25" />
       </list>
     </recent_temporary>
   </component>
@@ -511,14 +516,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00058" summary="Refactoring">
-      <option name="closed" value="true" />
-      <created>1691057611769</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1691057611769</updated>
-    </task>
     <task id="LOCAL-00059" summary="Homework21">
       <option name="closed" value="true" />
       <created>1691696946826</created>
@@ -559,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692735194472</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="homeWork25">
+      <option name="closed" value="true" />
+      <created>1692875816414</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1692875816414</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -594,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Calculator added" />
     <MESSAGE value="Changes in homework" />
     <MESSAGE value="eight lecture" />
     <MESSAGE value="Homework for eight lecture" />
@@ -619,7 +623,8 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Homework21" />
     <MESSAGE value="homeWork24" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork24" />
+    <MESSAGE value="homeWork25" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

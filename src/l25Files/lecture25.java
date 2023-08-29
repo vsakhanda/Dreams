@@ -2,7 +2,7 @@ package l25Files;
 
 import java.io.*;
 
-public class lecture {
+public class lecture25 {
 
     public static void main(String[] args){
 
