@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork25">
-      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/buffers/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/channels/Channels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/files/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l26Files2NIO/selectors/Selectors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/Lecture27.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork26">
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/factory/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/factory/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/factory/SomeCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/factory/SomeProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/homeWork27.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/proxy/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/proxy/Lexus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/proxy/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/singeton/Singleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l25Files/homeWork25/homeWork25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l25Files/homeWork25/homeWork25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l25Files/lecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l25Files/lecture25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l26Files2NIO/HomeWork/HomeWork26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l26Files2NIO/homeWork/HomeWork26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l26Files2NIO/Lecture26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l26Files2NIO/Lecture26.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,7 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWork26">
+  <component name="RunManager" selected="Application.homeWork27">
     <configuration name="Buffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l26Files2NIO.buffers.Buffer" />
       <module name="Dreams" />
@@ -183,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeWork25" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l25Files.homeWork25.homeWork25" />
+    <configuration name="homeWork27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l27DesignPaterns.HomeWork27.homeWork27" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l25Files.homeWork25.*" />
+          <option name="PATTERN" value="l27DesignPaterns.HomeWork27.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeWork27" />
         <item itemvalue="Application.HomeWork26" />
         <item itemvalue="Application.Files" />
         <item itemvalue="Application.Channels" />
         <item itemvalue="Application.Buffer" />
-        <item itemvalue="Application.homeWork25" />
       </list>
     </recent_temporary>
   </component>
@@ -516,22 +516,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00059" summary="Homework21">
-      <option name="closed" value="true" />
-      <created>1691696946826</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1691696946826</updated>
-    </task>
-    <task id="LOCAL-00060" summary="Homework21">
-      <option name="closed" value="true" />
-      <created>1691705842079</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1691705842079</updated>
-    </task>
     <task id="LOCAL-00061" summary="Homework21">
       <option name="closed" value="true" />
       <created>1691706333026</created>
@@ -564,7 +548,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692875816414</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="homeWork26">
+      <option name="closed" value="true" />
+      <created>1693339774534</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1693339774534</updated>
+    </task>
+    <task id="LOCAL-00066" summary="homeWork26">
+      <option name="closed" value="true" />
+      <created>1693339781629</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1693339781629</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -599,7 +599,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changes in homework" />
     <MESSAGE value="eight lecture" />
     <MESSAGE value="Homework for eight lecture" />
     <MESSAGE value="Homework for tenth lecture" />
@@ -624,7 +623,8 @@
     <MESSAGE value="Homework21" />
     <MESSAGE value="homeWork24" />
     <MESSAGE value="homeWork25" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork25" />
+    <MESSAGE value="homeWork26" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork26" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
