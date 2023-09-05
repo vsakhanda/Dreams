@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork26">
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/factory/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/factory/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/factory/SomeCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/factory/SomeProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/homeWork27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/proxy/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/proxy/Lexus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/proxy/Proxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l27DesignPaterns/HomeWork27/singeton/Singleton.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork27">
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/CheckForAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/CheckForAgeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/CheckForAgeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/ParentStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/ShouldBeValidated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/homework28/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/homework28/CheckYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/homework28/CheckYearException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/homework28/CheckYearInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/homework28/ClassValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/homework28/homeWork28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/lecture/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/lecture/StudentInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l28Reflection/lecture/lecture28.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l29Threads1/Lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/Lecture30.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +38,7 @@
         <option value="Enum" />
         <option value="Record" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -124,39 +133,14 @@
       <recent name="Eight" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="l28Reflection" />
       <recent name="Fourteen.Interf" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homeWork27">
-    <configuration name="Buffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l26Files2NIO.buffers.Buffer" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="l26Files2NIO.buffers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Channels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l26Files2NIO.channels.Channels" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="l26Files2NIO.channels.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.homeWork28">
     <configuration name="Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l26Files2NIO.files.Files" />
       <module name="Dreams" />
@@ -196,13 +180,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homeWork28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l28Reflection.homework28.homeWork28" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l28Reflection.homework28.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lecture28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l28Reflection.lecture.lecture28" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l28Reflection.lecture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeWork28" />
+        <item itemvalue="Application.lecture28" />
         <item itemvalue="Application.homeWork27" />
         <item itemvalue="Application.HomeWork26" />
         <item itemvalue="Application.Files" />
-        <item itemvalue="Application.Channels" />
-        <item itemvalue="Application.Buffer" />
       </list>
     </recent_temporary>
   </component>
@@ -516,14 +526,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00061" summary="Homework21">
-      <option name="closed" value="true" />
-      <created>1691706333026</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1691706333026</updated>
-    </task>
     <task id="LOCAL-00062" summary="homeWork24">
       <option name="closed" value="true" />
       <created>1692725053781</created>
@@ -564,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693339781629</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="homeWork27">
+      <option name="closed" value="true" />
+      <created>1693505260718</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1693505260719</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -599,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="eight lecture" />
     <MESSAGE value="Homework for eight lecture" />
     <MESSAGE value="Homework for tenth lecture" />
     <MESSAGE value="Homework for eleven lecture" />
@@ -624,7 +633,8 @@
     <MESSAGE value="homeWork24" />
     <MESSAGE value="homeWork25" />
     <MESSAGE value="homeWork26" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork26" />
+    <MESSAGE value="homeWork27" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork27" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
