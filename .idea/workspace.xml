@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork27">
-      <change afterPath="$PROJECT_DIR$/src/l29Threads1/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l29Threads1/homeWork29/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l29Threads1/homeWork29/HomeRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l29Threads1/homeWork29/HomeThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l29Threads1/homeWork29/homeWork29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l29Threads1/MultiThreads/MultiThing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l29Threads1/MultiThreads/MultiThingIntr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l29Threads1/MultiThreads/Multithreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/homeWork30/MultiThreadRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/homeWork30/homework30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/homeWork30/randomNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l29Threads1/Lecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l29Threads1/Lecture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +26,8 @@
       <list>
         <option value="Enum" />
         <option value="Record" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -98,26 +97,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/macuser/Documents/IdeaProjects/Dreams&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/Users/macuser/Documents/IdeaProjects/Dreams",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="l24Exceptions.homeWork" />
@@ -131,7 +130,20 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homeWork29">
+  <component name="RunManager" selected="Application.homework30">
+    <configuration name="EightHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eight.EightHomework" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Eight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l29Threads1.Lecture" />
       <module name="Dreams" />
@@ -145,25 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeWork27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l27DesignPaterns.HomeWork27.homeWork27" />
+    <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l29Threads1.MultiThreads.Multithreading" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l27DesignPaterns.HomeWork27.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homeWork28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l28Reflection.homework28.homeWork28" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="l28Reflection.homework28.*" />
+          <option name="PATTERN" value="l29Threads1.MultiThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lecture28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l28Reflection.lecture.lecture28" />
+    <configuration name="homework30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l30Threads2.homeWork30.homework30" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l28Reflection.lecture.*" />
+          <option name="PATTERN" value="l30Threads2.homeWork30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homework30" />
+        <item itemvalue="Application.EightHomework" />
+        <item itemvalue="Application.Multithreading" />
         <item itemvalue="Application.homeWork29" />
         <item itemvalue="Application.Lecture" />
-        <item itemvalue="Application.homeWork28" />
-        <item itemvalue="Application.lecture28" />
-        <item itemvalue="Application.homeWork27" />
       </list>
     </recent_temporary>
   </component>
@@ -517,14 +516,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00063" summary="homeWork24">
-      <option name="closed" value="true" />
-      <created>1692735194472</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1692735194472</updated>
-    </task>
     <task id="LOCAL-00064" summary="homeWork25">
       <option name="closed" value="true" />
       <created>1692875816414</created>
@@ -565,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693943961024</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="homeWork27">
+      <option name="closed" value="true" />
+      <created>1694079449206</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1694079449207</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
