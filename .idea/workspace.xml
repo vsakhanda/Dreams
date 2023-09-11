@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork27">
-      <change afterPath="$PROJECT_DIR$/src/l29Threads1/MultiThreads/MultiThing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l29Threads1/MultiThreads/MultiThingIntr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l29Threads1/MultiThreads/Multithreading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l30Threads2/homeWork30/MultiThreadRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l30Threads2/homeWork30/homework30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l30Threads2/homeWork30/randomNumber.java" afterDir="false" />
+    <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="homeWork30">
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/NewThread/Executors/ExecutorWithCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/NewThread/Executors/FutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/NewThread/Executors/UtilConcurrencyExecotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/NewThread/JMM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/NewThread/sync/SyncLecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/oldOne/Lecture30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l30Threads2/oldOne/NotifyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l31PracticeThread/Lecture31.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l30Threads2/Lecture30.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l30Threads2/homeWork30/homework30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l30Threads2/homeWork30/homework30.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +83,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/l24Exceptions/Lecture24.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/l30Threads2/NewThread/Executors/FutureExample.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -114,7 +119,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.editor"
+    "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -123,6 +128,9 @@
       <recent name="Eight" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="l30Threads2.NewThread" />
+      <recent name="l30Threads2.NewThread.Executors" />
+      <recent name="l30Threads2.oldOne" />
       <recent name="l28Reflection" />
       <recent name="Fourteen.Interf" />
     </key>
@@ -130,13 +138,13 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework30">
-    <configuration name="EightHomework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eight.EightHomework" />
+  <component name="RunManager" selected="Application.FutureExample">
+    <configuration name="CompletableFutureExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l30Threads2.NewThread.Executors.CompletableFutureExample" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Eight.*" />
+          <option name="PATTERN" value="l30Threads2.NewThread.Executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l29Threads1.Lecture" />
+    <configuration name="FutureExample" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l30Threads2.NewThread.Executors.FutureExample" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l29Threads1.homeWork29.*" />
+          <option name="PATTERN" value="l30Threads2.NewThread.Executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multithreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l29Threads1.MultiThreads.Multithreading" />
+    <configuration name="Lecture30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l30Threads2.oldOne.Lecture30" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l29Threads1.MultiThreads.*" />
+          <option name="PATTERN" value="l30Threads2.oldOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homeWork29" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l29Threads1.homeWork29.homeWork29" />
+    <configuration name="NotifyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l30Threads2.oldOne.NotifyExample" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l29Threads1.homeWork29.*" />
+          <option name="PATTERN" value="l30Threads2.oldOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +191,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l30Threads2.homeWork30.homework30" />
+    <configuration name="UtilConcurrencyExecotor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l30Threads2.NewThread.Executors.UtilConcurrencyExecotor" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l30Threads2.homeWork30.*" />
+          <option name="PATTERN" value="l30Threads2.NewThread.Executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,11 +206,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.homework30" />
-        <item itemvalue="Application.EightHomework" />
-        <item itemvalue="Application.Multithreading" />
-        <item itemvalue="Application.homeWork29" />
-        <item itemvalue="Application.Lecture" />
+        <item itemvalue="Application.CompletableFutureExample" />
+        <item itemvalue="Application.UtilConcurrencyExecotor" />
+        <item itemvalue="Application.NotifyExample" />
+        <item itemvalue="Application.Lecture30" />
       </list>
     </recent_temporary>
   </component>
@@ -516,14 +523,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00064" summary="homeWork25">
-      <option name="closed" value="true" />
-      <created>1692875816414</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1692875816414</updated>
-    </task>
     <task id="LOCAL-00065" summary="homeWork26">
       <option name="closed" value="true" />
       <created>1693339774534</created>
@@ -564,7 +563,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694079449207</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="homeWork30">
+      <option name="closed" value="true" />
+      <created>1694202703596</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1694202703597</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -599,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Homework for eight lecture" />
     <MESSAGE value="Homework for tenth lecture" />
     <MESSAGE value="Homework for eleven lecture" />
     <MESSAGE value="Delete dublicated files" />
@@ -624,7 +630,8 @@
     <MESSAGE value="homeWork25" />
     <MESSAGE value="homeWork26" />
     <MESSAGE value="homeWork27" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork27" />
+    <MESSAGE value="homeWork30" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork30" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

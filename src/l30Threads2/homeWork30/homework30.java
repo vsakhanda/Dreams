@@ -12,67 +12,39 @@ public class homework30 {
     public static void main(String[] args) {
         // First - потік з числами до моменту коли число ==5ю
 
-        // new randomNumber();
+        Thread1 th1 = new Thread1();
+        Thread2 th2 = new Thread2();
 
-        int a=5;
-        homework30 myWork = new homework30();
-        int Sum = first(a);
-        System.out.printf("\nthe sum is :%d " , Sum);
-        // Second
+        Thread t1 = new Thread(th1);
+        Thread t2 = new Thread(th2);
+
+        t1.start();
+        t1.interrupt(); // Calling stop() method to kill runnable thread.
+        t2.start();
     }
 
-
-    public static int first(int a) {
-        a = 5;
-        int i = 1;
-        while (i <= a)
+    public static class Thread1 implements Runnable
+    {
+        public void run()
         {
-            a += i;
-            System.out.println("count:" + a);
-            i = i++;
+            System.out.println("First child thread");
         }
-        return a;
     }
+    public static class Thread2 implements Runnable
+    {
+        static Thread t2;
+        public void run()
+        {
+            for(int i = 0; i <= 10; i ++)
 
-//        int i = 0;
-//        while (i < 7)
-//        {
-//            counter1(i);
-//            System.out.println(i);
-//        }
-
-
-//        int stopnumber = 5;
-//        MultiThreadRunnable myThing = new MultiThreadRunnable();
-//        Thread myThread = new Thread(myThing);
-//
-
-
-
-
-//        myThread.start();
-
-    private static void counter1(int i) {
-        int j = i+1;
-    }
-
-//    Thread th = new Thread(() -> {
-//        while(true)
-//        {
-//            //some operation
-//        }
-//    });
-//th.start();
-//
-//if(condition)
-//            th.restart();
-
-
-
-    public static void second() {
-
-    }
-
-
+            {
+                System.out.println("Second child thread: " +i);
+                if(i==5)
+                {
+                   // t2.interrupt(); // Calling stop() method to kill running thread.
+                }
+            }
+        }}
 
 }
+
