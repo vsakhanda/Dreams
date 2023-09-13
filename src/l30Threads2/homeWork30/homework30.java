@@ -1,81 +1,74 @@
 package l30Threads2.homeWork30;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+import java.util.concurrent.*;
+
 /*
 
 Створити поток який генерує числа від 1 до 10 і нескінченно їх виводить на консоль. Якщо згенероване число == 5 - то перервати роботу потоку
 Створити callable поток, який повертає випадково згенероване число від 1 до 50. Зробити пул с 10 потоків для виклику цього методу.
-
 */
-
-import java.util.Random;
-
 public class homework30 {
-    private final static int range = 10;
 
-    public static void main(String[] args) {
-
-        Random random;
-        while (true) {
-            random = new Random();
-            int number = random.nextInt(range);
-            System.out.println("Number = " + number);
-        } while (5 == random.nextInt());
-    }
+    private final static int range = 50;
+    private final static int number = 5;
 
 
+  public static void main(String[] args) throws InterruptedException, ExecutionException {
 
+//      Створити поток який генерує числа від 1 до 10 і нескінченно їх виводить на консоль. Якщо згенероване число == 5 - то перервати роботу потоку
 
-
-
-
-}
-
-
-
-
-
-        /*
-
-
-
-
-
-        // First - потік з числами до моменту коли число ==5ю
-
-     //   Thread1 th1 = new Thread1();
-        Thread2 th2 = new Thread2();
-
-    //    Thread t1 = new Thread(th1);
-        Thread t2 = new Thread(th2);
-
-//        t1.start();
-//        t1.interrupt(); // Calling stop() method to kill runnable thread.
-        t2.start();
-    }
-
-  *//*  public static class Thread1 implements Runnable
-    {
-        public void run()
-        {
-            System.out.println("First child thread");
-        }
-    }*//*
-    public static class Thread2 implements Runnable
-    {
-        static Thread t2;
-        public void run()
-        {
-            for(int i = 0; i <= 10; i ++)
-
-            {
-                System.out.println("Second child thread: " +i);
-                if(i==5){
-                    t2.stop();
+        System.out.println("Початок методу визначення випадкових числе через потоки");
+        Thread thread1 = new Thread(() -> {
+            int randomNumber = 0;
+            while (true) {
+                randomNumber = random();
+                if(randomNumber == number) {
+                    break;
+                } else {
+                    System.out.println("Випадкове значення: " + randomNumber);
                 }
-                     // Calling stop() method to kill running thread.
             }
+            System.out.println("згенероване число == 5  Зупиняємо Thread.");
+        });
 
-        }}
+        thread1.start();
+//Створити callable поток, який повертає випадково згенероване число від 1 до 50. Зробити пул с 10 потоків для виклику цього методу.
+
+
+
+
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
+        List<Callable<Integer>> callables= new ArrayList<>();
+
+      System.out.println("****");
+      System.out.println("callable потік");
+
+
+        for (int i = 1; i<=10; i++) {
+            callables.add(new ThreadCallable());
+        }
+
+        try {
+            List<Future<Integer>> futures = executorService.invokeAll(callables);
+
+            for (int i = 0; i < 10; i++) {
+                Future<Integer> future = futures.get(i);
+                System.out.println("Callable " + Thread.currentThread().getName() + " random number: " + future.get());
+            }
+        } finally {
+            executorService.shutdown();
+        }
+
+    }
+
+    private static int random () {
+        Random random = new Random();
+        int randomInt = random.nextInt(range);
+        return randomInt;
+    }
 
 }
 
-*/
