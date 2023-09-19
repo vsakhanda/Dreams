@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/l30Threads2/homeWork30/ThreadCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/crud/DepartmentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/crud/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/fetch/UserWithDepartmentFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/init/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/init/DatabaseCreationFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/init/DatabaseInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/init/DepartmentCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/init/UserCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/transactional/TransactionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/l32JDBC/transactional/TransactionalInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l30Threads2/homeWork30/MultiThreadRunnable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l30Threads2/homeWork30/homework30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l30Threads2/homeWork30/homework30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l30Threads2/homeWork30/randomNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dreams.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Dreams.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l32JDBC/Lecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l32JDBC/Lecture.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +126,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
@@ -131,6 +143,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="l32JDBC" />
       <recent name="l30Threads2.NewThread.locks" />
       <recent name="l24Exceptions.homeWork" />
       <recent name="Eight" />
@@ -146,7 +159,7 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.homework30">
+  <component name="RunManager" selected="Application.Lecture">
     <configuration name="FutureExample" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l30Threads2.NewThread.Executors.FutureExample" />
       <module name="Dreams" />
@@ -160,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l30Threads2.NewThread.blockingCollection.Queues" />
+    <configuration name="Lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l32JDBC.Lecture" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l30Threads2.NewThread.blockingCollection.*" />
+          <option name="PATTERN" value="l32JDBC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalLecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l30Threads2.NewThread.ThreadLocal.ThreadLocalLecture" />
+    <configuration name="Queues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l30Threads2.NewThread.blockingCollection.Queues" />
       <module name="Dreams" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="l30Threads2.NewThread.ThreadLocal.*" />
+          <option name="PATTERN" value="l30Threads2.NewThread.blockingCollection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lecture" />
         <item itemvalue="Application.homework30" />
         <item itemvalue="Application.poolTask" />
         <item itemvalue="Application.Queues" />
         <item itemvalue="Application.threadPool" />
-        <item itemvalue="Application.ThreadLocalLecture" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +257,11 @@
       <option name="presentableId" value="Default" />
       <updated>1685389729823</updated>
       <workItem from="1694539255982" duration="3707000" />
-      <workItem from="1694589322604" duration="1872000" />
+      <workItem from="1694589322604" duration="4730000" />
+      <workItem from="1694950968076" duration="600000" />
+      <workItem from="1694951712587" duration="5487000" />
+      <workItem from="1695045003152" duration="435000" />
+      <workItem from="1695045446119" duration="9276000" />
     </task>
     <task id="LOCAL-00001" summary="new comment for commit">
       <created>1685392161448</created>
@@ -547,14 +564,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00070" summary="homeWork30">
-      <option name="closed" value="true" />
-      <created>1694202703596</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1694202703597</updated>
-    </task>
     <task id="LOCAL-00071" summary="homeWork30">
       <option name="closed" value="true" />
       <created>1694459049665</created>
@@ -595,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694550093101</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="homeWork30_1">
+      <option name="closed" value="true" />
+      <created>1694593127634</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1694593127634</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
