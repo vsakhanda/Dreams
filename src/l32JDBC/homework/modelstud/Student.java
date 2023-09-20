@@ -1,64 +1,78 @@
 package l32JDBC.homework.modelstud;
 
 
+import java.util.Objects;
 
 public class Student {
 
-    private static String id;
-    private static String name;
-    private static String surname;
-    private static Integer year;
+    private int id;
+    private String name;
+    private String surname;
+    private int year;
 
-    public static String getId() {
+    public int getId() {
         return id;
     }
 
-    public static void setId(String id) {
-        Student.id = id;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public static String getName() {
+    public String getName() {
         return name;
     }
 
-    public static void setName(String name) {
-        Student.name = name;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public static String getSurname() {
+    public String getSurname() {
         return surname;
     }
 
-    public static void setSurname(String surname) {
-        Student.surname = surname;
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 
-    public static Integer getYear() {
+    public int getYear() {
         return year;
     }
 
-    public static void setYear(Integer year) {
-        Student.year = year;
+    public void setYear(int year) {
+        this.year = year;
     }
 
 
-    public Student() {
-        super();
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Student student = (Student) o;
+
+        if (id != student.id) return false;
+        if (year != student.year) return false;
+        if (!Objects.equals(name, student.name)) return false;
+        return Objects.equals(surname, student.surname);
     }
 
     @Override
     public int hashCode() {
-        return super.hashCode();
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
+        int result = id;
+        result = 31 * result + (name != null ? name.hashCode() : 0);
+        result = 31 * result + (surname != null ? surname.hashCode() : 0);
+        result = 31 * result + year;
+        return result;
     }
 
     @Override
     public String toString() {
-        return "Student{}";
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", year=" + year +
+                '}';
     }
 }
 

@@ -9,7 +9,7 @@ import java.sql.SQLException;
 public class StudentService {
 
 
-    private StudentManager studentManager;
+    private final StudentManager studentManager;
 
     public StudentService() {
         this.studentManager = new StudentManager();

@@ -1,10 +1,13 @@
 package l32JDBC.init;
 
+import l32JDBC.homework.initstud.StudentCreator;
+
 public class DatabaseCreationFacade {
 
     private final DatabaseInitializer databaseInitializer;
     private final DepartmentCreator departmentCreator;
     private final UserCreator userCreator;
+    private final StudentCreator studentCreator;
 
 
     public DatabaseCreationFacade() {
@@ -14,6 +17,8 @@ public class DatabaseCreationFacade {
         this.departmentCreator = new DepartmentCreator();
         System.out.println("Запуск ініціалізатора Користувачів");
         this.userCreator = new UserCreator();
+        System.out.println("Запуск ініціалізатора Користувачів");
+        this.studentCreator = new StudentCreator();
     }
 
     public void createAndInsertDatabase(boolean create) {
@@ -24,6 +29,8 @@ public class DatabaseCreationFacade {
             departmentCreator.initialization();
             System.out.println("Ініціалізація користувачів");
             userCreator.initialization();
+            System.out.println("Ініціалізація Студентів");
+            studentCreator.initialization();
         }
     }
 

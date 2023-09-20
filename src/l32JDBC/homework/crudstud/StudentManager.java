@@ -11,11 +11,10 @@ import java.sql.SQLException;
 
 public class StudentManager {
 
-
     public void insertStudent(Student student) throws SQLException {
         Connection connection = DatabaseConnection.getInstance().getConnection();
 
-        String sql = "INSERT INTO users (name, surname, department_id) VALUES (?, ?, ?)";
+        String sql = "INSERT INTO students (name, surname, year) VALUES (?, ?, ?)";
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             preparedStatement.setString(1, student.getName());
@@ -28,7 +27,7 @@ public class StudentManager {
     public void updateStudent(Student student) throws SQLException {
         Connection connection = DatabaseConnection.getInstance().getConnection();
 
-        String sql = "UPDATE users SET name = ?, surname = ?, department_id = ? WHERE id = ?";
+        String sql = "UPDATE students SET name = ?, surname = ?, year = ? WHERE id = ?";
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
             preparedStatement.setString(1, student.getName());
@@ -38,26 +37,25 @@ public class StudentManager {
         }
     }
 
-    public void deleteStudent(int studentId) throws SQLException {
+    public void deleteStudent(int id) throws SQLException {
         Connection connection = DatabaseConnection.getInstance().getConnection();
 
         String sql = "DELETE FROM students WHERE id = ?";
 
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
-            preparedStatement.setInt(1, studentId);
+            preparedStatement.setInt(1, id);
             preparedStatement.executeUpdate();
         }
     }
 
-    public Student findStudentById(int userId) throws SQLException {
+    public Student findStudentById(int id) throws SQLException {
         Connection connection = DatabaseConnection.getInstance().getConnection();
 
-        String sql = "SELECT u.id, u.name, u.surname, d.id as department_id, d.name as department_name " +
-                "FROM users u " +
-                "JOIN departments d ON u.department_id = d.id " +
-                "WHERE u.id = ?";
+        String sql = "SELECT id, name, surname, year " +
+                "FROM students " +
+                "WHERE id = ?";
         try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
-            preparedStatement.setInt(1, userId);
+            preparedStatement.setInt(1, id);
             ResultSet resultSet = preparedStatement.executeQuery();
         }
         return null; // повертаємо null, якщо користувача не знайдено
