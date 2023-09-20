@@ -1,6 +1,5 @@
 package l33JavaCoreFinal.homeWork33.entity;
 
-import java.util.Date;
 import java.util.Objects;
 
 public class Note {
@@ -9,7 +8,7 @@ public class Note {
     private String name;
     private String text;
     private String author;
-    private Date datetime;
+    private String datetime;
 
     public Integer getId() {
         return id;
@@ -43,11 +42,11 @@ public class Note {
         this.author = author;
     }
 
-    public java.sql.Date getDatetime() {
-        return (java.sql.Date) datetime;
+    public String getDatetime() {
+        return datetime;
     }
 
-    public void setDatetime(Date datetime) {
+    public void setDatetime(String datetime) {
         this.datetime = datetime;
     }
 

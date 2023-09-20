@@ -17,6 +17,7 @@ public class MyDaily {
 
         NoteService noteService = new NoteServiceImpl();
         noteService.findAll();
+
     }
 
 

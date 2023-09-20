@@ -15,9 +15,7 @@ public class NoteMapper {
         notesDTO.setName(note.getName());
         notesDTO.setText(note.getText());
         notesDTO.setAuthor(note.getAuthor());
-        notesDTO.setDatetime(note.getDatetime());
-//        userDTO.setSurname(note.getSurname());
-//        userDTO.setDepartmentName(user.getDepartment().getName());
+ //       notesDTO.setDatetime(note.getDatetime());
         return notesDTO;
     }
 
@@ -27,7 +25,7 @@ public class NoteMapper {
         notes.setName(noteDTO.getName());
         notes.setText(noteDTO.getText());
         notes.setAuthor(noteDTO.getAuthor());
-        notes.setDatetime(noteDTO.getDatetime());
+ //       notes.setDatetime(noteDTO.getDatetime());
         return notes;
     }
 

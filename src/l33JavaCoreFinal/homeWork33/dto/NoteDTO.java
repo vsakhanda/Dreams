@@ -1,6 +1,5 @@
 package l33JavaCoreFinal.homeWork33.dto;
 
-import java.util.Date;
 import java.util.Objects;
 
 public class NoteDTO {
@@ -9,7 +8,7 @@ public class NoteDTO {
     private String name;
     private String text;
     private String author;
-    private Date datetime;
+    private String datetime;
 
     public Integer getId() {
         return id;
@@ -43,11 +42,11 @@ public class NoteDTO {
         this.author = author;
     }
 
-    public Date getDatetime() {
+    public String getDatetime() {
         return datetime;
     }
 
-    public void setDatetime(Date datetime) {
+    public void setDatetime(String datetime) {
         this.datetime = datetime;
     }
 

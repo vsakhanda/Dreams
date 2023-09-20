@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/Lecture33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/db/NoteDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/MyDaily.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/constant/Queries.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/dto/NoteDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/entity/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/mapper/NoteMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/service/NoteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/service/NoteServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/db/NoteDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/MyDaily.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/MyDaily.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/constant/Queries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/constant/Queries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/dto/NoteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/dto/NoteDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/entity/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/entity/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/mapper/NoteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/mapper/NoteMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/service/NoteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/service/NoteServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +258,7 @@
       <workItem from="1694951712587" duration="5487000" />
       <workItem from="1695045003152" duration="435000" />
       <workItem from="1695045446119" duration="12914000" />
-      <workItem from="1695153285116" duration="18114000" />
+      <workItem from="1695153285116" duration="21479000" />
     </task>
     <task id="LOCAL-00001" summary="new comment for commit">
       <created>1685392161448</created>
@@ -563,14 +561,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00075" summary="homeWork30_1">
-      <option name="closed" value="true" />
-      <created>1694550093100</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1694550093101</updated>
-    </task>
     <task id="LOCAL-00076" summary="homeWork30_1">
       <option name="closed" value="true" />
       <created>1694593127634</created>
@@ -611,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695206550562</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="homeWork 33">
+      <option name="closed" value="true" />
+      <created>1695231150896</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1695231150896</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -649,7 +647,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Розширення коментарів домашнього завдання" />
     <MESSAGE value="Added AutoPark Class and added new methods" />
     <MESSAGE value="edit .gitignore file" />
     <MESSAGE value="edit homework" />
@@ -674,7 +671,8 @@
     <MESSAGE value="homeWork30_1" />
     <MESSAGE value="Lecture 32" />
     <MESSAGE value="homeWork 32" />
-    <option name="LAST_COMMIT_MESSAGE" value="homeWork 32" />
+    <MESSAGE value="homeWork 33" />
+    <option name="LAST_COMMIT_MESSAGE" value="homeWork 33" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -694,6 +692,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.NoSuchElementException" package="java.util" />
           <option name="timeStamp" value="14" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="21" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
