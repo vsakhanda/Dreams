@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79e3dee3-fe6a-48c6-bb40-e88d36d1e239" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/l23StreamPractice/homeWorkl23.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/db/NoteDAOImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/MyDaily.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/MyDaily.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/constant/Queries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/constant/Queries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/db/NoteDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/dto/NoteDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/dto/NoteDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/entity/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/entity/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/mapper/NoteMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/mapper/NoteMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/service/NoteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/l33JavaCoreFinal/homeWork33/service/NoteServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +146,7 @@
       <recent name="Fourteen.Interf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyDaily">
+  <component name="RunManager" selected="Application.homeWorkl23">
     <configuration name="FutureExample" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l30Threads2.NewThread.Executors.FutureExample" />
       <module name="Dreams" />
@@ -208,6 +199,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="homeWorkl23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="l23StreamPractice.homeWorkl23" />
+      <module name="Dreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="l23StreamPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="homework30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="l30Threads2.homeWork30.homework30" />
       <module name="Dreams" />
@@ -221,26 +225,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="poolTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="l31PracticeThread.poolTask" />
-      <module name="Dreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="l31PracticeThread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.homeWorkl23" />
         <item itemvalue="Application.MyDaily" />
         <item itemvalue="Application.Students" />
         <item itemvalue="Application.Lecture" />
         <item itemvalue="Application.homework30" />
-        <item itemvalue="Application.poolTask" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +249,7 @@
       <workItem from="1694951712587" duration="5487000" />
       <workItem from="1695045003152" duration="435000" />
       <workItem from="1695045446119" duration="12914000" />
-      <workItem from="1695153285116" duration="21479000" />
+      <workItem from="1695153285116" duration="23226000" />
     </task>
     <task id="LOCAL-00001" summary="new comment for commit">
       <created>1685392161448</created>
@@ -561,14 +552,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689266285460</updated>
     </task>
-    <task id="LOCAL-00076" summary="homeWork30_1">
-      <option name="closed" value="true" />
-      <created>1694593127634</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1694593127634</updated>
-    </task>
     <task id="LOCAL-00077" summary="Lecture 32">
       <option name="closed" value="true" />
       <created>1695136507289</created>
@@ -609,7 +592,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695231150896</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="homeWork 33">
+      <option name="closed" value="true" />
+      <created>1695234383701</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1695234383701</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
